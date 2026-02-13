@@ -40,7 +40,9 @@ nav:
   - Troubleshooting:
     - Overview: using/troubleshooting/index.md
     - Quick triage (1–2 clicks): using/troubleshooting/quick-triage.md
+    - Decision tree: using/troubleshooting/decision-tree.md
     - Support safety: using/troubleshooting/support-safety.md
+    - Getting help (templates): using/troubleshooting/getting-help.md
     - Known-good fixes by version: using/troubleshooting/known-good-fixes.md
     - Recipes:
       - Clean resync (v4): using/troubleshooting/recipes/clean-resync-v4.md
@@ -68,12 +70,17 @@ nav:
 - Ecosystem:
   - ReddID & Social Tipping: ecosystem/reddid.md
   - Exchanges & Markets: ecosystem/markets.md
+- News & Updates:
+  - Overview: news/index.md
+  - Official publications: news/official-publications.md
+  - Releases & changelog hub: news/releases.md
 - History:
   - Timeline: history/timeline.md
   - Known incidents & advisories: history/incidents.md
 - Reference:
   - Overview: reference/index.md
   - Canonical documents: reference/documents.md
+  - Wallet files & locations: reference/wallet-files.md
   - ReddPaper: reference/reddpaper.md
   - PoSV v2 paper: reference/posv-v2-paper.md
   - PoSV v2 FAQ: reference/posv-v2-faq.md

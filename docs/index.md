@@ -15,5 +15,7 @@ This site is intended to be a **single, web-based point of reference** for ReddC
 - New user? Start at **What is ReddCoin?** and **Wallets**
 - Want to earn staking rewards? See **Staking**
 - Need chain status / current height? See **Explorer & APIs**
+- Having wallet trouble? Start with **Troubleshooting → Quick triage**
+- Looking for recent announcements? See **News & Updates**
 
 > Last updated: 2026-02-12

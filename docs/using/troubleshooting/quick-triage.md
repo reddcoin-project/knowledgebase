@@ -4,7 +4,9 @@
 
 Use this page to **jump straight to a fix**.
 
-> **Before you change anything:** make an offline backup of your wallet files (`wallet.dat` and/or the `wallets/` folder).
+Prefer a guided flow? See: **[Troubleshooting decision tree](decision-tree.md)**.
+
+> **Before you change anything:** make an offline backup of your wallet files (`wallet.dat` and/or the `wallets/` folder). If you need the file paths, see: **[Wallet files & locations](../../reference/wallet-files.md)**.
 
 ## Pick your symptom
 

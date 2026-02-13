@@ -10,21 +10,25 @@ This page records **notable incidents and operational advisories** observed in p
 
 ## 2024–2026 incident log (high signal)
 
-| Date | Type | What happened | Affected | What users saw | Recommended action | Sources |
+| Date | Type | What happened | What users saw | Fix / runbook | Notes | Sources |
 |---|---|---|---|---|---|---|
-| 2024-01-19 | Release / advisory | Core **v4.22.8** announced (incl. fix for blockchain stalling download) | Desktop wallets | Upgrade questions; sync behavior discussed | Prefer official downloads; treat v3→v4 as clean resync | [^message1975134][^message1975136] |
-| 2024-07-05 | Incident | **Wrong-chain / fork** observed; console-level recovery instructions shared | Some nodes; some services | Block heights differ; transactions with certain services fail | Safe-default: delete & resync (optionally bootstrap). Advanced: `invalidateblock <hash>` + restart | [^message1997330][^message1997333] |
-| 2024-08-17 | **Update required** | Team tracked incidental chain splits and highlighted conflicts between v4→v3 transaction behavior | Legacy v3 nodes; mixed services | Chainsplits; v3 not accepting certain v4 tx features | Backup and upgrade legacy nodes/services to v4; avoid mixed-version operation | [^message2000580] |
-| 2024-09-14 | Incident / diagnostic | Admin published **two known “bad fork” checks** (heights + hashes) and matching `invalidateblock` commands | Nodes on wrong forks | Wallet appears synced but has different blockhash at known heights | Use the published hash checks; for non-experts prefer full resync; experts can invalidate the wrong-fork hash | [^message2002551] |
-| 2024-08-22 | Infrastructure | Official **v4 bootstrap** link circulated by lead dev | Users needing fast sync | Slow initial sync; recovery workflows | Use official bootstrap v4; do not mix v3/v4 snapshots | [^message2001059] |
-| 2025-12-15 | Roadmap update | Dev update: **v4.22.10** in progress, targeting SegWit/CSV/Taproot with stronger test frameworks | Future release | Community asking for “what’s next” | Track official updates; expect release after functional tests complete | [^message2036694] |
-| 2026-02-12 | Operational check | Admin reiterated a **canonical blockhash check** for chain verification | Users diagnosing wrong chain | Wallet “synced” but mismatch suspected | `getblockhash 5519068` should match canonical hash | [^message2039543] |
+| 2024-01-19 | Release / advisory | Core **v4.22.8** announced (incl. fix for blockchain stalling download) | Upgrade/sync questions | [Known-good fixes by version](../using/troubleshooting/known-good-fixes.md) | Prefer official downloads; for v3→v4 follow the upgrade runbook | [^message1975134][^message1975136] |
+| 2024-07-05 | Incident | **Wrong-chain / fork** observed; console-level recovery instructions shared | Block heights differ; transactions with certain services fail | [Wrong fork / chain split](../using/troubleshooting/recipes/wrong-fork-chain-split.md) | Safe-default: clean resync (optionally bootstrap). Advanced: `invalidateblock <hash>` + restart | [^message1997330][^message1997333] |
+| 2024-08-17 | **Update required** | Team tracked incidental chain splits and highlighted conflicts between v4→v3 transaction behavior | Chainsplits; v3 not accepting certain v4 tx features | [v3 → v4 upgrade](../using/troubleshooting/recipes/v3-to-v4-upgrade.md) | Upgrade legacy nodes/services to v4; avoid mixed-version operation | [^message2000580] |
+| 2024-09-14 | Incident / diagnostic | Admin published **two known “bad fork” checks** (heights + hashes) and matching `invalidateblock` commands | Wallet appears synced but blockhash differs at known heights | [Wrong fork / chain split](../using/troubleshooting/recipes/wrong-fork-chain-split.md) | Non-experts: full resync. Experts: invalidate wrong-fork hash, then reorg | [^message2002551] |
+| 2024-08-22 | Infrastructure | Official **v4 bootstrap** link circulated by lead dev | Slow initial sync; recovery workflows | [Bootstrap](../using/troubleshooting/bootstrap.md) | Use official bootstrap v4; do not mix v3/v4 snapshots | [^message2001059] |
+| 2025-04-09 | Release | **4.22.9** published (downloads + release post) | v4 desktop wallet users | Upgrade questions; sync behavior; general maintenance release | [Releases hub](../news/releases.md) | Prefer official downloads; follow version-compatibility guidance | [^wp-4.22.9] |
+| 2025-06-26 | Exchange advisory | **Xeggex shutting down** (exchange closure notice) | Users with funds on Xeggex | Potential loss of access / withdrawals depending on exchange status | [Markets & exchanges](../ecosystem/markets.md) | If you still have access, withdraw to self-custody; treat centralized exchanges as temporary | [^wp-xeggex] |
+| 2025-10-01 | Development update | **4.22.10** described as a major protocol upgrade path (SegWit/CSV activations), plus exchange reliability concerns | Community | Confusion about “released vs. planned”; timing of upgrades | [Version compatibility & upgrades](../using/troubleshooting/version-compatibility.md) | Verify latest published builds via download index; track monthly project updates for timelines | [^wp-update-oct2025] |
+| 2025-11-17 | Development update | Testing progress update; next release focuses on **CSV, SegWit, Taproot (stretch goal)** | Community | Expectations-setting about testing duration | [Releases hub](../news/releases.md) | Treat as “in progress” until a build appears in the official download index | [^wp-update-nov2025] |
+| 2025-12-15 | Roadmap update | Dev update: **v4.22.10** in progress, targeting SegWit/CSV/Taproot with stronger test frameworks | Community asking for “what’s next” | [Roadmap / Backlog](../roadmap.md) | Track official updates; expect release after functional tests complete | [^message2036694] |
+| 2026-02-12 | Operational check | Admin reiterated a **canonical blockhash check** for chain verification | Wallet “synced” but mismatch suspected | [Wrong fork / chain split](../using/troubleshooting/recipes/wrong-fork-chain-split.md) | `getblockhash 5519068` should match canonical hash | [^message2039543] |
 
 ---
 
 ## Notes on “wrong-chain stakes”
 
-Admins repeatedly emphasized that if your wallet is on a wrong fork, “stakes” and transactions may not be recognized once you return to the canonical chain. If you suspect this, follow **[Wrong fork / wrong chain recovery](../using/troubleshooting/wrong-fork.md)** first.
+Admins repeatedly emphasized that if your wallet is on a wrong fork, “stakes” and transactions may not be recognized once you return to the canonical chain. If you suspect this, start with **[Wrong fork / chain split](../using/troubleshooting/recipes/wrong-fork-chain-split.md)**.
 
 ---
 
@@ -40,3 +44,8 @@ Admins repeatedly emphasized that if your wallet is on a wrong fork, “stakes�
 [^message2001059]: Telegram export (ReddCoinOfficial), 2024-08-22, John (cryptognasher) Nash, message2001059. Note: V4 Bootstrap https://download.reddcoin.com/bin/bootstrap/v4/ Permalink: https://t.me/ReddcoinOfficial/2001059.
 [^message2036694]: Telegram export (ReddCoinOfficial), 2025-12-15, John (cryptognasher) Nash, message2036694. Note: Current Development Update - December 2025 Hey Reddcoin Family, As we get close to the end of 2025, I just wanted to give a heads up on where things are at with Reddcoin… Permalink: https://t.me/ReddcoinOfficial/2036694.
 [^message2039543]: Telegram export (ReddCoinOfficial), 2026-02-12, obito, message2039543. Note: Run in the Console of the Core Wallet: getblockhash 5519068 Is the output of this command this string of characters? 1d6ebb2d73dccc03b7b9b013c3b08ec8a83919ed4480edbad6e0… Permalink: https://t.me/ReddcoinOfficial/2039543.
+
+[^wp-4.22.9]: ReddCoin News (WordPress), “Reddcoin 4.22.9 Release”, 2025-04-09. https://wordpress.reddcoin.com/index.php/2025/04/09/reddcoin-4-22-9-release/
+[^wp-xeggex]: ReddCoin News (WordPress), “Xeggex Shutting Down”, 2025-06-26. https://wordpress.reddcoin.com/index.php/2025/06/26/xeggex-shutting-down/
+[^wp-update-oct2025]: ReddCoin News (WordPress), “Project Update – October 2025”, 2025-10-01. https://wordpress.reddcoin.com/index.php/2025/10/01/project-update-october-2025/
+[^wp-update-nov2025]: ReddCoin News (WordPress), “Project Update – November 2025”, 2025-11-17. https://wordpress.reddcoin.com/index.php/2025/11/17/project-update-november-2025/

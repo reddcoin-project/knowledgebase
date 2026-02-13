@@ -7,6 +7,10 @@ ReddCoin operates a Trezor/SatoshiLabs **Blockbook** instance that serves as:
 
 Explorer: https://blockbook.reddcoin.com/
 
+The team also published a **Peers** page for network transparency:
+
+- Peers: https://blockbook.reddcoin.com/peers
+
 ## Why Blockbook matters
 
 Blockbook is an *indexer* sitting in front of a full node. It maintains an address index and exposes fast queries without requiring each user to run a full chain index locally.

@@ -9,8 +9,10 @@ This section is a curated, **version-aware** set of runbooks for the ReddCoin Co
 ## Start here
 
 - **Fastest path:** [Quick triage (1–2 clicks)](quick-triage.md)
+- **Guided flowchart:** [Decision tree](decision-tree.md)
 - **Version sanity check:** [Version compatibility & upgrades](version-compatibility.md)
 - **Scam avoidance:** [Support safety](support-safety.md)
+- **How to ask for help:** [Getting help (templates)](getting-help.md)
 - **Version-specific index:** [Known-good fixes by version](known-good-fixes.md)
 
 ## Common fixes

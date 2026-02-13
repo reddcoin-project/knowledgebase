@@ -62,6 +62,13 @@ These are **time-bound** operational notes from public channel admins. They are 
 
 > Always treat exchange availability as temporary and re-check **today** before sending funds.
 
+## Official exchange advisories (project posts)
+
+These are project-authored posts that may impact exchange availability:
+
+- **Xeggex shutdown / bankruptcy notice (June 26, 2025):** https://wordpress.reddcoin.com/index.php/2025/06/26/xeggex-shutting-down/
+- **Project Update – October 2025** includes notes on repeated exchange outages (TradeOgre, Xeggex, SLEX) and why self-custody matters: https://wordpress.reddcoin.com/index.php/2025/10/01/project-update-october-2025/
+
 ### Footnotes
 
 [^message2038600]: Telegram export (ReddCoinOfficial), 2026-01-30, Kpcrypt0, message2038600. Note: We are coming with another ⚠️ warning ⚠️! It appears StakeCube has an extremely low volume on all markets together(less than $1000 on 24h). If you have funds there, and … Permalink: https://t.me/ReddcoinOfficial/2038600.
