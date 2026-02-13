@@ -2,6 +2,16 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
+## v0.16 — 2026-02-13
+
+Major:
+- Expanded **ReddID** with builder-ready pages covering **Namespaces**, **Database schema**, and an **Implementation plan** (curated from the GitHub wiki).
+- Added a compact **Downloads** hub page with verification guidance (SHA256).
+
+Minor:
+- Navigation updates for quicker access (Downloads under Using RDD; builder pages under Ecosystem → ReddID).
+
+
 ## v0.15 — 2026-02-13
 
 Major:

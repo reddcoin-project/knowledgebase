@@ -15,3 +15,10 @@ From the most recent “Comprehensive Design Document” and “Technical Archit
 - Technical Architecture Specification: https://github.com/reddcoin-project/reddcoin/wiki/Reddid-Technical-Architecture-Specification citeturn3view2
 
 Next: read **Design (auction + identity model)** and **Architecture (components, P2P, RPC)** in this section.
+
+
+## Builder-ready references
+
+- [Namespaces](namespaces.md)
+- [Database schema](database-schema.md)
+- [Implementation plan](implementation-plan.md)
