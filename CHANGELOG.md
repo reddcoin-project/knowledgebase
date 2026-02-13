@@ -2,6 +2,14 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
+## v0.18 (2026-02-13)
+
+- Reduced repository file count (<100) to support GitHub web UI uploads.
+- Consolidated small pages (FAQ → Quickstart; Explorer → Infrastructure; Legacy PoSV notes → PoSV v2).
+- Centralized External references and Legacy wiki notes into single pages.
+- Replaced bundled PDFs with canonical links on redd.love.
+- Trimmed unused logo variants while keeping official branding.
+
 ## v0.17 — 2026-02-13
 
 Major:
@@ -72,3 +80,9 @@ Major:
 Major:
 - Added README with local preview + GitHub Pages deployment instructions.
 - Added GitHub Actions workflow for MkDocs Pages deploy.
+
+
+## v0.19
+- Senior UX contrast fixes (header + typography)
+- Added extra.css for consistent branding and readability
+- Improved line height and content width for technical docs

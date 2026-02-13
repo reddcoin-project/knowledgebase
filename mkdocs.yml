@@ -50,7 +50,6 @@ nav:
     - Overview: using/staking.md
     - Staking ops FAQ: using/staking-ops-faq.md
     - Version matrix: using/version-matrix.md
-  - FAQs: using/faq.md
   - Troubleshooting:
     - Overview: using/troubleshooting/index.md
     - Quick triage (1–2 clicks): using/troubleshooting/quick-triage.md
@@ -76,10 +75,8 @@ nav:
     - Bootstrap: using/troubleshooting/bootstrap.md
 - Technology:
   - Consensus:
-    - PoSV: tech/consensus/posv.md
     - PoSV v2 & Enhanced Staking: tech/consensus/posv-v2.md
     - PoSV v2 Activation: tech/consensus/posv-v2-activation.md
-  - Explorer & APIs: tech/explorer.md
   - Infrastructure & repos: tech/infrastructure.md
 - Builders:
   - Overview: builders/index.md
@@ -114,18 +111,14 @@ nav:
   - ReddBook: reference/reddbook.md
   - External sources:
     - Linktree: reference/external/linktree.md
-    - Reddit: reference/external/reddit.md
-    - CoinGecko: reference/external/coingecko.md
-    - Legacy wiki: reference/external/wiki.md
     - Blockbook: reference/external/blockbook.md
   - Legacy wiki (curated):
     - Overview: legacy_wiki/index.md
     - Integrity report: legacy_wiki/integrity.md
     - Exchanges (legacy): legacy_wiki/exchanges.md
     - Wallet recovery (legacy): legacy_wiki/wallet-recovery.md
-    - Zapwallettxes (legacy): legacy_wiki/zapwallettxes.md
     - Core issues (legacy): legacy_wiki/core-issues.md
-    - reddcoin.conf (legacy): legacy_wiki/reddcoin-conf.md
+  - External links: reference/external/index.md
 - Changelog: changelog.md
 - Contributors:
   - How to Contribute: contribute.md

@@ -1,18 +1,57 @@
-# Legacy wiki extracts
+# Legacy wiki notes (archival)
 
-The historic Reddcoin MediaWiki instance (`wiki.reddcoin.com`) contains genuinely useful pages — but it has also suffered from **spam / page pollution** in some sections.
+These pages are preserved for historical/archival purposes.
 
-This section provides **curated, safety-minded extracts** of the pieces that remain useful for day-to-day operators (wallet recovery, known UI issues, exchange listings), along with an integrity report that flags compromised pages.
+## reddcoin.conf notes
 
-## How we handle polluted content
+# reddcoin.conf (legacy notes)
 
-- We prefer **permalink (oldid) snapshots** of wiki pages to avoid future edits or spam.
-- We **do not copy** promotional, suspicious, or unrelated external links.
-- When a page mixes good content with questionable claims, we extract the operational steps and label the rest as *unverified / legacy*.
+This is a **legacy reference** derived from the historic wiki page.
 
-## What belongs here
+Use it as a starting point only — always confirm settings against the current Reddcoin Core version and release notes.
 
-- Operational “how-to” that still helps today (wallet restore, zapwallettxes).
-- Small, factual reference pages (example `reddcoin.conf`).
-- Curated exchange directory snapshots, clearly labeled by source + date.
+**Source:** `wiki.reddcoin.com/Reddcoin.conf` (historic content; legacy addnodes/port details may be outdated).
 
+## Common patterns
+
+- Network / connectivity
+  - `addnode=<ip-or-host>`
+  - `maxconnections=<n>`
+
+- RPC (only if you know you need it)
+  - `rpcuser=<user>`
+  - `rpcpassword=<strong password>`
+  - `rpcallowip=<ip>`
+
+> Security: Do not expose RPC to the public internet.
+
+## zapwallettxes (stuck transactions)
+
+# Remove stuck transactions (zapwallettxes)
+
+**Source:** `wiki.reddcoin.com/Remove_stuck_transactions_with_zapwallettxes` permalink `oldid=4783`.
+
+The `zapwallet` option removes wallet transactions that are **not** on the blockchain (for example: conflicted, stuck unconfirmed).
+
+> Use with care: it removes certain wallet-recorded transactions and then rebuilds the wallet’s transaction view from the chain.
+
+## Linux
+
+```bash
+cd /path/to/reddcoin-qt
+./reddcoin-qt --zapwallettxes=1
+```
+
+## macOS
+
+```bash
+/Applications/Reddcoin-Qt.app/Contents/MacOS/Reddcoin-Qt --zapwallettxes=1
+```
+
+## Windows
+
+```text
+"C:\Program Files\Reddcoin\reddcoin-qt.exe" -zapwallettxes=1
+```
+
+After startup, check the **Transactions** tab.

@@ -1,0 +1,32 @@
+
+/* ReddCoin Knowledgebase UX Fixes */
+
+/* Improve contrast */
+:root {
+  --md-primary-fg-color: #E31B23;
+  --md-primary-fg-color--light: #ff4a4a;
+  --md-primary-fg-color--dark: #9b0000;
+}
+
+/* Banner / hero readability */
+.md-header {
+  background-color: #111 !important;
+}
+.md-header__title, .md-header__topic {
+  color: #ffffff !important;
+}
+
+/* Fix white-on-white links/buttons */
+.md-typeset a {
+  font-weight: 600;
+}
+
+/* Improve readability */
+.md-typeset {
+  line-height: 1.75;
+}
+
+/* Limit line width for long technical docs */
+.md-grid {
+  max-width: 1400px;
+}

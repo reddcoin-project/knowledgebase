@@ -18,3 +18,26 @@ This page is a curated map of the ReddCoin team’s public infrastructure and co
 ## How we keep this page accurate
 
 This map should be reviewed whenever the GitHub org changes. Add/remove repos here as the ecosystem evolves.
+
+
+---
+
+## Explorer & APIs
+
+# Explorer & APIs
+
+## Blockbook (Trezor / SatoshiLabs)
+
+ReddCoin provides a Blockbook-based explorer that exposes:
+
+- Chain status (sync, last block)
+- Mempool info
+- Basic address/tx/block queries
+
+Explorer: https://blockbook.reddcoin.com/
+
+More detail (including common API patterns):
+
+- [Blockbook explorer & API](../reference/external/blockbook.md)
+
+> Note: Blockbook is intended for indexing and explorer functionality; always validate critical data with your own node when needed.
