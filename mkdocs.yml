@@ -1,0 +1,84 @@
+site_name: ReddCoin Knowledgebase
+site_description: Community-maintained single point of reference for ReddCoin (RDD),
+  ReddNetwork, and Project Redd.
+repo_url: https://github.com/reddcoin-project
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - content.code.copy
+markdown_extensions:
+- admonition
+- footnotes
+- pymdownx.details
+- pymdownx.superfences
+- toc:
+    permalink: true
+nav:
+- Start Here:
+  - Overview: index.md
+  - What is ReddCoin?: about/reddcoin.md
+  - Quick Links: community/links.md
+- Community:
+  - How we curate sources: community/triage.md
+  - Archive index: community/archive.md
+  - Telegram: community/telegram.md
+  - Reddit: community/reddit.md
+  - ReddcoinTalk forum: community/reddcointalk.md
+- Using RDD:
+  - Wallets: using/wallets.md
+  - Staking:
+    - Overview: using/staking.md
+    - Staking ops FAQ: using/staking-ops-faq.md
+    - Version matrix: using/version-matrix.md
+  - FAQs: using/faq.md
+  - Troubleshooting:
+    - Overview: using/troubleshooting/index.md
+    - Version compatibility & upgrades: using/troubleshooting/version-compatibility.md
+    - No peers / no block source: using/troubleshooting/no-peers.md
+    - Corrupted blockchain / resync: using/troubleshooting/corrupted-blockchain.md
+    - Stuck transactions: using/troubleshooting/stuck-transactions.md
+    - Wrong fork / wrong chain: using/troubleshooting/wrong-fork.md
+    - Reindex & rescan: using/troubleshooting/reindex-rescan.md
+    - Bootstrap: using/troubleshooting/bootstrap.md
+- Technology:
+  - Consensus:
+    - PoSV: tech/consensus/posv.md
+    - PoSV v2 & Enhanced Staking: tech/consensus/posv-v2.md
+    - PoSV v2 Activation: tech/consensus/posv-v2-activation.md
+  - Explorer & APIs: tech/explorer.md
+  - Infrastructure & repos: tech/infrastructure.md
+- Ecosystem:
+  - ReddID & Social Tipping: ecosystem/reddid.md
+  - Exchanges & Markets: ecosystem/markets.md
+- History:
+  - Timeline: history/timeline.md
+  - Known incidents & advisories: history/incidents.md
+- Reference:
+  - Overview: reference/index.md
+  - Canonical documents: reference/documents.md
+  - ReddPaper: reference/reddpaper.md
+  - PoSV v2 paper: reference/posv-v2-paper.md
+  - PoSV v2 FAQ: reference/posv-v2-faq.md
+  - ReddBook: reference/reddbook.md
+  - External sources:
+    - Linktree: reference/external/linktree.md
+    - Reddit: reference/external/reddit.md
+    - CoinGecko: reference/external/coingecko.md
+    - Legacy wiki: reference/external/wiki.md
+    - Blockbook: reference/external/blockbook.md
+  - Legacy wiki (curated):
+    - Overview: legacy_wiki/index.md
+    - Integrity report: legacy_wiki/integrity.md
+    - Exchanges (legacy): legacy_wiki/exchanges.md
+    - Wallet recovery (legacy): legacy_wiki/wallet-recovery.md
+    - Zapwallettxes (legacy): legacy_wiki/zapwallettxes.md
+    - Core issues (legacy): legacy_wiki/core-issues.md
+    - reddcoin.conf (legacy): legacy_wiki/reddcoin-conf.md
+- Contributors:
+  - How to Contribute: contribute.md
+  - Sources & Attribution: sources.md
+  - Telegram export notes: sources/telegram-export.md
+  - Roadmap / Backlog: roadmap.md
