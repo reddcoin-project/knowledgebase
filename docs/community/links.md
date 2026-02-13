@@ -4,8 +4,8 @@
 
 - Website: https://reddcoin.com/
 - Docs hub: https://redd.love/
-- ReddBlog (reddcoin.com): https://www.reddcoin.com/reddblog/
-- ReddCoin Blog archive (redd.love): https://blog.redd.love/
+- ReddBlog (https://reddcoin.com): https://www.reddcoin.com/reddblog/
+- ReddCoin Blog archive (https://redd.love): https://blog.redd.love/
 - News (WordPress): https://wordpress.reddcoin.com/index.php/news/
 - Knowledge base (this site): local
 - Linktree (official link hub): https://linktr.ee/reddcoin

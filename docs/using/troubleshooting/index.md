@@ -31,8 +31,8 @@ This section is a curated, **version-aware** set of runbooks for the ReddCoin Co
 
 Most procedures here are distilled from:
 
-- Project-controlled docs (ReddPaper / ReddBook / redd.love)
-- Official downloads and repos (reddcoin.com, download.reddcoin.com, GitHub)
+- Project-controlled docs (ReddPaper / ReddBook / https://redd.love)
+- Official downloads and repos (https://reddcoin.com, https://download.reddcoin.com, GitHub)
 - Curated admin guidance from the public Telegram channel export (ReddCoinOfficial)
 
 See: [Telegram export notes](../../sources/telegram-export.md)

@@ -89,3 +89,51 @@
   color: var(--md-accent-fg-color) !important;
   text-decoration: underline;
 }
+
+/* ===== ReddCoin Knowledgebase v0.24 UX baseline ===== */
+
+/* Ensure high-contrast header/banner text across light/dark */
+.md-header, .md-banner, .md-announce {
+  background: var(--redd-surface-strong, #111) !important;
+  color: #fff !important;
+}
+.md-header__title, .md-header__topic, .md-header__button, .md-tabs__link {
+  color: #fff !important;
+}
+.md-banner a, .md-announce a { color: #fff !important; text-decoration: underline; text-underline-offset: 2px; }
+
+/* Readability */
+.md-content {
+  line-height: 1.65;
+}
+.md-typeset {
+  max-width: 90ch;
+}
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Keyboard accessibility */
+:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color, #00AEEF);
+  outline-offset: 3px;
+}
+
+/* Staking 101 widget */
+#staking101 .s101-meter {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.22);
+  margin: 10px 0 8px;
+}
+#staking101 .s101-meter-bar {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--md-primary-fg-color, #E31B23);
+}
+#staking101 .s101-result {
+  margin: 0.2rem 0 0.6rem;
+}

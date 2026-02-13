@@ -5,7 +5,7 @@
     External links can change over time. If something looks outdated, please report it.
 
 
-This page curates the partner list currently published on reddcoin.com. Treat this as a historical/marketing reference: availability, relationship status, and integrations can change over time.
+This page curates the partner list currently published on https://reddcoin.com. Treat this as a historical/marketing reference: availability, relationship status, and integrations can change over time.
 
 ## Published partner list
 

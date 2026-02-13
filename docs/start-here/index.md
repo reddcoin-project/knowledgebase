@@ -1,47 +1,48 @@
----
-title: Start Here
----
+# Start Here
 
-Welcome, **ReddHeads**. This is the fastest way to find what you need—whether you’re here to **download a wallet**, **start staking**, **troubleshoot**, or **build**.
+Welcome, **ReddHeads**. This knowledgebase is a community-run library for a volunteer, first‑generation Layer‑1 blockchain founded in 2014.
 
-> **Trust signal:** ReddCoin has been live since **2014**. This knowledgebase is maintained as a community “single point of reference” for RDD users and builders.
+ReddCoin exists to help people share value online — ethically, transparently, and without corporate gatekeepers. Our mission is **Faith, Hope, and Charity**: a social currency that prioritizes people over hype.
+
+## Choose your path
 
 <div class="grid cards" markdown>
 
--   :material-download: **Download the wallet**
+-   :octicons-download-24: **Download & verify**
 
-    Get the official binaries and verify **SHA256** hashes.
+    Get the Core Wallet from our official downloads host and verify the SHA256 hash.
 
-    [Go to Downloads](../using/downloads.md){ .md-button .md-button--primary }
+    [Go to Downloads](../using/downloads.md)
 
--   :material-sprout: **Start staking**
+-   :octicons-shield-lock-24: **Self‑custody basics**
 
-    Learn PoSV v2 basics and staking operations.
+    Learn the “Redd Way” for private keys, backups, and staying safe.
 
-    [Staking overview](../using/staking.md){ .md-button }
+    [Go to Self‑Custody](../using/self-custody.md)
 
--   :material-lifebuoy: **Fix a problem**
+-   :octicons-graph-24: **Staking 101**
 
-    Quick triage, decision tree, and known-good fixes.
+    Understand Proof‑of‑Stake Velocity (PoSV): why it exists, and how to stake responsibly.
 
-    [Troubleshooting](../using/troubleshooting/index.md){ .md-button }
+    [Go to Staking 101](../using/staking/staking-101.md)
 
--   :material-code-braces: **Build on ReddCoin**
+-   :octicons-tools-24: **Troubleshooting**
 
-    ReddID specs, namespaces, schema, and implementation plan.
+    Wallet stuck syncing? Missing coins? Exchange deposit delayed? Start here.
 
-    [Builders hub](../builders/index.md){ .md-button }
+    [Go to Troubleshooting](../using/troubleshooting/index.md)
+
+-   :octicons-code-24: **Build / run nodes**
+
+    RPC, APIs, operator notes, PoSV v2 specs, and ReddID (social identity layer).
+
+    [Go to Developers & Nodes](../developers/index.md)
 
 </div>
 
-## Choose your path (router)
+## Live project status (transparency)
 
-If you prefer a guided flow, use the Quickstart router:
+We are 100% volunteer-run. The most honest view of “what’s active” is our public GitHub.
 
-- [Quickstart (choose your path)](quickstart.md)
-
-## Knowledgebase home (wiki-style index)
-
-For a full “map” of the knowledgebase:
-
-- [Knowledgebase Home](knowledgebase-home.md)
+- Volunteer progress dashboard: [Live Project Status](../reference/live-project-status.md)
+- Source of truth repos: https://github.com/reddcoin-project/

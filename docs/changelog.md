@@ -49,7 +49,7 @@ This changelog tracks releases of the **ReddCoin Knowledgebase** (this website),
 - Reduced repository file count (<100) to support GitHub web UI uploads.
 - Consolidated small pages (FAQ → Quickstart; Explorer → Infrastructure; Legacy PoSV notes → PoSV v2).
 - Centralized External references and Legacy wiki notes into single pages.
-- Replaced bundled PDFs with canonical links on redd.love.
+- Replaced bundled PDFs with canonical links on https://redd.love.
 - Trimmed unused logo variants while keeping official branding.
 
 ## v0.17 (2026-02-13)

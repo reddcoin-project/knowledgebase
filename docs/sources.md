@@ -63,4 +63,4 @@ These PDFs are included directly in this repo under `docs/assets/docs/`:
 
 ## Partners
 
-- Partner list (reddcoin.com): https://www.reddcoin.com/reddcoin-partners/ citeturn1view0
+- Partner list (https://reddcoin.com): https://www.reddcoin.com/reddcoin-partners/ citeturn1view0

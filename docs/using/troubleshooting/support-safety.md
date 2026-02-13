@@ -8,7 +8,7 @@ This knowledgebase assumes a hostile environment: scammers will target people as
 
 1. **No DMs.** If someone DMs you “support”, treat it as a scam attempt. [^tg-2024-12-25-2010662]
 2. **Never share secrets.** Seed phrases, private keys, `wallet.dat`, remote-desktop access.
-3. **Verify links.** Use redd.love / reddcoin.com / download.reddcoin.com as your starting points.
+3. **Verify links.** Use https://redd.love / https://reddcoin.com / https://download.reddcoin.com as your starting points.
 4. **Ask in public channels.** You get collective validation and scammers have less room to manipulate.
 
 ## Why we say this

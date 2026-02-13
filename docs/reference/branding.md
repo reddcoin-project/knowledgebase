@@ -6,7 +6,7 @@ This knowledgebase follows the **official Redd / ReddCoin brand guidelines** pub
 
 If you are creating graphics, listings, articles, or social posts, use the official page above for the latest files and rules.
 
-## Official color palette (from redd.love/brand)
+## Official color palette (from https://redd.love/brand)
 
 | Name | Hex |
 |---|---|
@@ -19,7 +19,7 @@ If you are creating graphics, listings, articles, or social posts, use the offic
 | Dark Green | `#54B948` |
 | Light Green | `#8DC63F` |
 
-## Typography (from redd.love/brand)
+## Typography (from https://redd.love/brand)
 
 - **Goldplay** (logo + major taglines)
 - **Rubik** (headings)

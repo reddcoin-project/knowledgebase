@@ -16,4 +16,4 @@ ReddCoin’s long-running theme is simple: turn “likes” and other social eng
 
 - Reddcoin Wiki (About / Main Page)
 - CoinGecko (project description)
-- Official site (reddcoin.com)
+- Official site (https://reddcoin.com)

@@ -7,7 +7,7 @@ This page is a **high-signal index** of project-owned sources (and a few long-ru
 - **redd.love** — primary “Project Redd” docs hub (ReddPaper, ReddBook, press/brand).
 - **reddcoin.com** — product landing pages (Core Wallet, ReddWallet, ReddBot, roadmap).
 - **blog.redd.love** — long-running blog archive (announcements, releases, dev-call links).
-- **reddcoin.com/reddblog** — newer blog index mirrored on reddcoin.com.
+- **reddcoin.com/reddblog** — newer blog index mirrored on https://reddcoin.com.
 - **wordpress.reddcoin.com/news** — release posts and project updates (when used).
 
 ## Official social channels

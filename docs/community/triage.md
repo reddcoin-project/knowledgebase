@@ -9,7 +9,7 @@ This knowledgebase aims to be a **single point of reference**. That only works i
 Use these to define reality when there is conflict:
 
 - Official published documents (ReddPaper, ReddBook, PoSV v2 paper, PoSV v2 FAQ)
-- Official project sites and release posts (e.g., reddcoin.com, redd.love, download.reddcoin.com)
+- Official project sites and release posts (e.g., https://reddcoin.com, https://redd.love, https://download.reddcoin.com)
 - Official source code and tagged releases (GitHub repos under the project org)
 
 ### Tier 2 — Operational (live network truth)

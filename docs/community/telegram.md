@@ -20,7 +20,7 @@ Telegram is excellent for fast help and community coordination, but it is also a
 
 - Admins and team members should **not** ask you to share seed phrases, private keys, or your wallet.dat.
 - Be suspicious of unsolicited DMs offering “support”, “recovery”, or “upgrade files”.
-- Prefer official domains (reddcoin.com, redd.love, download.reddcoin.com) and official repos.
+- Prefer official domains (https://reddcoin.com, https://redd.love, https://download.reddcoin.com) and official repos.
 
 ## How we extract durable knowledge from Telegram
 
