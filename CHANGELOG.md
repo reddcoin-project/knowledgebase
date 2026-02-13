@@ -2,6 +2,18 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
+## v0.17 — 2026-02-13
+
+Major:
+- Added a **homepage Quick actions** block (Download, Staking, Troubleshoot, Builders).
+- Added **Quickstart (choose your path)** router for new users, stakers, exchange users, and builders.
+- Introduced a dedicated **Builders** section (separating developer docs like ReddID from general Ecosystem pages).
+- Added **“Last verified”** callouts on external-link-heavy pages (Downloads, Products, Partners, Markets).
+- Standardized **safety callouts** (download verification, exchange risk & test transactions).
+
+Minor:
+- UI/UX readability improvements: neutral header with brand underline, reduced saturated surfaces, improved spacing, and a more readable content measure for long technical pages.
+
 ## v0.16 — 2026-02-13
 
 Major:

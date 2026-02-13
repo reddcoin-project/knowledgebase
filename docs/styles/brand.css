@@ -15,12 +15,34 @@
 /* Link hover */
 .md-typeset a:hover{ text-decoration: underline; }
 
-/* Header subtle gradient */
+
+
+/* UI/UX readability tweaks (v0.17)
+   - Keep brand colors for accents, but avoid large saturated surfaces.
+   - Improve long-form readability with a slightly narrower content measure.
+*/
+
+/* Neutral header with brand underline */
 .md-header{
-  background: linear-gradient(90deg, #E31B23 0%, #F04D3C 35%, #00AEEF 100%);
+  background: var(--md-default-bg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+.md-header__title, .md-header__button, .md-header__source{
+  color: var(--md-default-fg-color);
 }
 
-/* Make tabs readable on gradient */
+/* Tabs: neutral background */
 .md-tabs{
-  background: rgba(0,0,0,0.08);
+  background: var(--md-default-bg-color);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
+
+/* Content measure + whitespace */
+.md-content__inner{
+  max-width: 90ch;
+}
+.md-typeset{
+  line-height: 1.7;
+}
+.md-typeset h2{ margin-top: 1.6em; }
+.md-typeset h3{ margin-top: 1.2em; }

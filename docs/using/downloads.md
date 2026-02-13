@@ -1,5 +1,18 @@
 # Downloads
 
+!!! info "Last verified: 2026-02-13"
+
+    External links can change over time. If something looks outdated, please report it.
+
+    Hashes (SHA256) are published alongside downloads at the official host. Verify before installing.
+
+
+
+!!! warning "Security: verify what you download"
+
+    Only download from the official host and **verify the SHA256 hash** before running installers.
+    If you’re unsure, ask in the official community channels and do not install.
+
 This page links to official ReddCoin binaries and shows how to **verify what you downloaded** before installing.
 
 ## Official download host

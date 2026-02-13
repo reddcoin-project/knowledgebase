@@ -1,5 +1,10 @@
 # Products
 
+!!! info "Last verified: 2026-02-13"
+
+    External links can change over time. If something looks outdated, please report it.
+
+
 This section summarizes the official product pages on the ReddCoin WordPress site and links back to canonical sources.
 
 ## ReddCoin (RDD)

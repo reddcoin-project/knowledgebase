@@ -1,5 +1,18 @@
 # Exchanges & markets
 
+!!! info "Last verified: 2026-02-13"
+
+    External links can change over time. If something looks outdated, please report it.
+
+    Treat listings and availability as informational only. Always do a small test transaction first.
+
+
+
+!!! warning "Safety: exchanges are high-risk"
+
+    Exchange support, wallet maintenance, and deposit/withdraw availability can change without notice.
+    Always do a **small test deposit/withdrawal** first, and never leave long-term holdings on an exchange.
+
 This page is designed to be **operationally safe**:
 
 - It does **not** recommend trading or predict price.
