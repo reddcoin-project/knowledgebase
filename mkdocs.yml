@@ -1,7 +1,7 @@
 site_name: ReddCoin Knowledgebase
 site_description: Community-maintained single point of reference for ReddCoin (RDD),
   ReddNetwork, and Project Redd.
-repo_url: https://github.com/reddcoin-project
+repo_url: https://github.com/reddcoin-project/knowledgebase
 theme:
   name: material
   features:
