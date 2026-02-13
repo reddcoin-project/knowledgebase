@@ -53,3 +53,12 @@ Then in **Settings → Pages**, set the publishing source to the `gh-pages` bran
 - If you use a user/org Pages repo (e.g. `<USER_OR_ORG>.github.io`) your site will be at:
   `https://<USER_OR_ORG>.github.io/`
 
+
+## Auto-updated pages
+
+This repo includes an optional scheduled workflow that updates:
+
+- `Reference → Current state dashboard`
+- `Ecosystem → Markets snapshot`
+
+Workflow: `.github/workflows/update-snapshots.yml` (daily schedule + manual dispatch)

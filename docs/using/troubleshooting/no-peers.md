@@ -7,7 +7,7 @@ This runbook is for cases where Core shows **0 connections**, **no block source*
 Admins repeatedly recommended:
 
 - **Close Core**
-- Delete (or rename) `peers.dat`
+- Delete (or rename) `peers.dat` (and optionally `anchors.dat`)
 - Reopen Core, allowing it to discover fresh peers again
 
 TechAdept summarized this as a safe first-step when the wallet can’t find valid peers.[^message1908849][^message1908882]
@@ -20,7 +20,9 @@ For v4 specifically, obito noted that installing v4 over v3 can leave a v3-creat
 2. Go to the data directory (see [Version compatibility](version-compatibility.md)).
 3. **Backup** `wallet.dat` (do not skip).
 4. Delete (or rename) **`peers.dat`**.
-5. Restart Core and wait a few minutes.
+5. Optional: delete **`anchors.dat`** (if present).
+6. Restart Core and wait a few minutes.
+
 
 ### If it still doesn’t connect
 

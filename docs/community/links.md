@@ -9,6 +9,7 @@
 - Telegram (community group): https://t.me/ReddcoinOfficial
 - Telegram (news channel): https://t.me/TeamReddcoin
 - X/Twitter: https://twitter.com/reddcoin
+- Bluesky: https://bsky.app/profile/reddcoin.bsky.social
 - YouTube: https://www.youtube.com/user/OfficialReddcoin/
 - ReddcoinTalk forum: https://reddcointalk.org/
 
@@ -19,3 +20,10 @@
 
 > Note: The legacy wiki’s Community page is actively maintained (edited 2025‑10‑24) and is a good source of regional Telegram groups.
 
+
+## Official news / blogs
+
+- WordPress News: https://wordpress.reddcoin.com/index.php/news/
+- Redd.Love blog: https://blog.redd.love/
+- ReddBlog archive: https://www.reddcoin.com/reddblog/
+- TechAdept Medium: https://techadept.medium.com/

@@ -6,6 +6,10 @@ This page is designed to be **operationally safe**:
 - It focuses on whether venues are real, reachable, and whether deposits/withdrawals function.
 - Every venue entry should include a **Last checked** date.
 
+!!! tip "Auto-updated snapshot"
+    See [Markets snapshot](markets_snapshot.md) for a daily-generated view from CoinGecko.
+
+
 ## Verification rubric (minimum)
 
 Before sending funds to an exchange or custodian, verify **at least**:

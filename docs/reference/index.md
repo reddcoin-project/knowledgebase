@@ -7,3 +7,8 @@ This section collects **canonical, project-controlled** documents and a few **ex
 - If you’re collaborating with the project: skim the **ReddBook** for mission, principles, and movement.
 
 > Tip: the `Sources & Attribution` page lists everything this knowledgebase is allowed to pull from.
+
+## Operational snapshots
+
+- [Current state dashboard](current_state.md)
+- [Versioning & compatibility](versioning.md)

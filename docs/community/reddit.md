@@ -34,3 +34,9 @@ When importing Reddit information into the wiki:
 - Never embed screenshots that show private keys, full addresses, or balances.
 - Replace non-official download links with official equivalents where possible.
 - Prefer summarizing “symptom → verified fix” and link the thread for full context.
+
+
+## High-signal troubleshooting threads (examples)
+
+- Restoring with old `.dat` file (paths + wallets folder): https://www.reddit.com/r/reddCoin/comments/1jm25y9/restoring_with_old_dat_file/
+- 4.22.9 wallet update (staking enablement note): https://www.reddit.com/r/reddCoin/comments/1cwnncv/reddcoin_4229_wallet_update_may_20_2024/

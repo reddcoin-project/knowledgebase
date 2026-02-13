@@ -10,6 +10,17 @@ ReddCoin Core is the full node wallet used to store, send, receive, and (optiona
 - Keep your wallet up to date with current releases.
 - Prefer downloading binaries from official project sources.
 
+
+## Seed phrase vs imported keys (important)
+
+Modern Core (4.22.x) supports HD wallet flows (seed phrase), but note:
+
+- A **seed phrase backup** typically restores the HD wallet keys it created.
+- If you **import a single private key**, that key may **not** be derivable from the seed phrase.
+
+See: [Telegram field notes](troubleshooting/telegram-field-notes.md) for a real-world warning observed in support.
+
+
 ## Versions & compatibility notes
 
 Major wallet changes can require re-syncing chain data. Read release notes and upgrade instructions.
