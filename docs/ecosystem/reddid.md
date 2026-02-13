@@ -1,15 +1,11 @@
 # ReddID & Social Tipping
 
-ReddID historically refers to the identity/tipping layer used to connect social identities with tipping.
+ReddID is ReddCoin’s identity and social tipping layer.
 
-## What belongs here
+This knowledgebase now maintains the ReddID documentation as a **section** with multiple pages:
 
-- ReddID history (browser extension era)
-- Account linking model (what is stored, what is not)
-- Current status and roadmap
-- Guides and security notes
+- **Overview:** `Ecosystem → ReddID → Overview`
+- **Design:** `Ecosystem → ReddID → Design Document (curated)`
+- **Architecture:** `Ecosystem → ReddID → Technical Architecture (curated)`
 
-## References
-
-- CoinGecko project description
-- Community guides / archived user guides
+If you landed here via an older link, start with **Ecosystem → ReddID**.

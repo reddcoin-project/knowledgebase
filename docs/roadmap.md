@@ -4,6 +4,10 @@ This is a living backlog for expanding the **ReddCoin Knowledgebase** (this site
 
 ## Recently completed
 
+- Integrated **official logo/art pack** into the site (logo + favicon).
+- Added **Products** and **Partners** pages based on official sources.
+- Expanded **ReddID** documentation into a multi-page section (design + architecture curation).
+
 - Added **News & Updates** section with curated links to official blog, Medium, and release posts.
 - Added **Troubleshooting decision tree** and a **Getting help** page with safe templates.
 - Added **Wallet files & locations** reference page for non-technical backups and recovery.

@@ -48,4 +48,19 @@ These PDFs are included directly in this repo under `docs/assets/docs/`:
 ## Community operational sources
 
 - Telegram (curated): see [Telegram export notes](sources/telegram-export.md)
+## Product pages (WordPress)
 
+- Products overview: https://wordpress.reddcoin.com/index.php/products/ citeturn0view0
+- ReddCoin (RDD): https://wordpress.reddcoin.com/index.php/products/reddcoin_currency/ citeturn2view0
+- Core Wallet: https://wordpress.reddcoin.com/index.php/products/corewallet/ citeturn2view1
+- ReddID: https://wordpress.reddcoin.com/index.php/products/reddid-2/ citeturn2view2
+
+## GitHub Wiki (design + technical specifications)
+
+- Wiki home: https://github.com/reddcoin-project/reddcoin/wiki citeturn1view1
+- ReddID Comprehensive Design Document: https://github.com/reddcoin-project/reddcoin/wiki/Comprehensive-Design-Document-Reddid citeturn0view1
+- ReddID Technical Architecture Specification: https://github.com/reddcoin-project/reddcoin/wiki/Reddid-Technical-Architecture-Specification citeturn3view2
+
+## Partners
+
+- Partner list (reddcoin.com): https://www.reddcoin.com/reddcoin-partners/ citeturn1view0

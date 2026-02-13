@@ -2,6 +2,18 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
+## v0.15 — 2026-02-13
+
+Major:
+- Integrated **official logo/art pack** into the site (local assets) and set site **logo + favicon** to the official ReddCoin marks.
+- Added **Products** page curated from the official WordPress product pages.
+- Added **Partners** page curated from the official reddcoin.com partner list.
+- Expanded **ReddID** into a multi-page section with curated summaries of the GitHub wiki **Design Document** and **Technical Architecture Specification**.
+
+Minor:
+- Updated Sources & Attribution and Branding reference pages with canonical links and local asset references.
+
+
 ## v0.14 — 2026-02-13
 
 Major:

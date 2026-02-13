@@ -31,3 +31,12 @@ If you are creating graphics, listings, articles, or social posts, use the offic
 - Avoid publishing “internal notes” or editor-only markers; this knowledgebase is intended to be public-facing.
 
 _Last reviewed: 2026-02-13_
+## Official logos (local copy)
+
+For this documentation build, the project provided a logo/art package (`NewReddLogoPack.zip`). A curated set of web-friendly PNGs is included here:
+
+- `docs/assets/brand/R-Logo-CLR.png` (site logo)
+- `docs/assets/brand/R-Graphic-CLR.png` (mark / favicon)
+- plus white/black variants
+
+Use these files as the **official** assets for this knowledgebase unless superseded by a newer package.

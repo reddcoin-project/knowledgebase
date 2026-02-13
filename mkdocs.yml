@@ -16,6 +16,11 @@ theme:
   - scheme: slate
     primary: red
     accent: light blue
+  logo: assets/brand/R-Logo-CLR.png
+  favicon: assets/brand/R-Graphic-CLR.png
+  font:
+    text: Rubik
+    code: Roboto Mono
 markdown_extensions:
 - admonition
 - footnotes
@@ -75,7 +80,12 @@ nav:
   - Explorer & APIs: tech/explorer.md
   - Infrastructure & repos: tech/infrastructure.md
 - Ecosystem:
-  - ReddID & Social Tipping: ecosystem/reddid.md
+  - Products: ecosystem/products.md
+  - ReddID:
+    - Overview: ecosystem/reddid/index.md
+    - Design Document (curated): ecosystem/reddid/design-document.md
+    - Technical Architecture (curated): ecosystem/reddid/technical-architecture.md
+  - Partners: ecosystem/partners.md
   - Exchanges & Markets: ecosystem/markets.md
 - News & Updates:
   - Overview: news/index.md
