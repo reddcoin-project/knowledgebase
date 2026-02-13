@@ -1,30 +1,51 @@
-# ReddCoin Knowledgebase
+---
+title: ReddCoin Knowledgebase
+---
 
-## Quick actions
+Welcome, **ReddHeads** — builders, stakers, educators, and supporters helping secure the ReddCoin network.
 
-[Download wallet](using/downloads.md){ .md-button .md-button--primary }
-[Start staking](using/staking.md){ .md-button }
-[Troubleshoot](using/troubleshooting/quick-triage.md){ .md-button }
-[ReddID / Builders](builders/index.md){ .md-button }
+> **Live since 2014.** This knowledgebase is maintained as a community “single point of reference” for using RDD safely and building on ReddCoin.
 
-> Tip: If you’re not sure where to go, use the **[Quickstart router](start-here/quickstart.md)**.
+<div class="grid cards" markdown>
 
-This site is intended to be a **single, web-based point of reference** for ReddCoin (RDD), the ReddNetwork, and Project Redd.
+-   :material-download: **Download**
 
-## What belongs here (scope)
+    Official binaries + SHA256 verification.
 
-- Canonical project documents (Redd Paper / Redd Book / staking specs)
-- How-to guides (wallet setup, staking, recovery, troubleshooting)
-- Technical references (consensus rules, network parameters, explorers, APIs)
-- Community references (official channels, brand assets, governance/process)
-- External references (CoinGecko / CoinMarketCap / explorers) with clear labeling
+    [Downloads](using/downloads.md){ .md-button .md-button--primary }
 
-## Quick start
+-   :material-sprout: **Stake**
 
-- New user? Start at **What is ReddCoin?** and **Wallets**
-- Want to earn staking rewards? See **Staking**
-- Need chain status / current height? See **Explorer & APIs**
-- Having wallet trouble? Start with **Troubleshooting → Quick triage**
-- Looking for recent announcements? See **News & Updates**
+    PoSV v2 basics, ops FAQ, and expectations.
 
-> Last updated: 2026-02-12
+    [Start staking](using/staking.md){ .md-button }
+
+-   :material-lifebuoy: **Troubleshoot**
+
+    Quick triage and known-good fixes by version.
+
+    [Fix an issue](using/troubleshooting/index.md){ .md-button }
+
+-   :material-code-tags: **Build**
+
+    ReddID specs, namespaces, schema, implementation plan.
+
+    [Builders hub](builders/index.md){ .md-button }
+
+</div>
+
+## Start here (guided)
+
+- [Start Here portal](start-here/index.md)
+- [Quickstart (choose your path)](start-here/quickstart.md)
+- [Knowledgebase Home (wiki index)](start-here/knowledgebase-home.md)
+
+## What this site is (and isn’t)
+
+This site is designed to be:
+
+- **Practical**: task-first pages (download, stake, fix, build)
+- **Trustworthy**: canonical sources linked, “last verified” notes where applicable
+- **Safe**: security warnings and verification steps are consistent sitewide
+
+It is not a marketing site; it’s an operational and technical reference for the community.

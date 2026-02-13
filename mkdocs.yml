@@ -31,10 +31,14 @@ markdown_extensions:
     check_paths: true
 - toc:
     permalink: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
 - Start Here:
-  - Overview: index.md
+  - Overview: start-here/index.md
   - Quickstart (choose your path): start-here/quickstart.md
+  - Knowledgebase Home: start-here/knowledgebase-home.md
   - What is ReddCoin?: about/reddcoin.md
   - Quick Links: community/links.md
 - Community:
@@ -102,6 +106,7 @@ nav:
 - Reference:
   - Overview: reference/index.md
   - Branding & usage guidelines: reference/branding.md
+  - UI/UX & IA review: reference/ui-ux-review.md
   - Canonical chain verification: reference/canonical-chain-verification.md
   - Canonical documents: reference/documents.md
   - Wallet files & locations: reference/wallet-files.md
@@ -127,3 +132,7 @@ nav:
   - Roadmap / Backlog: roadmap.md
 extra_css:
 - styles/brand.css
+- assets/stylesheets/extra.css
+plugins:
+- search:
+    separator: '[\s\-\.]+'
