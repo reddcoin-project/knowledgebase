@@ -37,3 +37,11 @@ This is a living backlog for expanding the **ReddCoin Knowledgebase** (this site
   - Confirmed / Plausible / Historical / Unverified
   - ...and ideally include a “Last reviewed” stamp.
 - For time-sensitive topics (exchanges, releases, outages), avoid hardcoding “latest” claims; link to the authoritative upstream index.
+
+
+## Newly completed (v0.14 — 2026-02-13)
+
+- Implemented **brand styling** (palette + CSS) and added **Branding & usage guidelines**.
+- Added **Canonical chain verification** reference page.
+- Rebuilt the **Exchanges & markets** page into a maintainable matrix with Last verified.
+- Added a **Knowledgebase changelog** (on-site + root file).

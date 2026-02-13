@@ -1,0 +1,26 @@
+/* Redd brand overrides (derived from https://redd.love/brand/ )
+   Primary: Dark Red #E31B23
+   Accent: Light Blue #00AEEF
+   Supporting: Light Red #F04D3C, Dark Blue #008FC5, Dark Orange #FDBB30, Light Orange #FFD200
+*/
+
+:root{
+  --md-primary-fg-color: #E31B23;
+  --md-primary-fg-color--light: #F04D3C;
+  --md-primary-fg-color--dark: #B31218;
+  --md-accent-fg-color: #00AEEF;
+  --md-typeset-a-color: #008FC5;
+}
+
+/* Link hover */
+.md-typeset a:hover{ text-decoration: underline; }
+
+/* Header subtle gradient */
+.md-header{
+  background: linear-gradient(90deg, #E31B23 0%, #F04D3C 35%, #00AEEF 100%);
+}
+
+/* Make tabs readable on gradient */
+.md-tabs{
+  background: rgba(0,0,0,0.08);
+}

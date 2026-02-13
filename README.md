@@ -1,4 +1,4 @@
-# ReddCoin Knowledgebase (MkDocs)
+# ReddCoin Knowledgebase (MkDocs) — v0.14
 
 This repository is an MkDocs (Material theme) documentation site.
 

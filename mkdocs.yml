@@ -9,6 +9,13 @@ theme:
   - navigation.sections
   - navigation.top
   - content.code.copy
+  palette:
+  - scheme: default
+    primary: red
+    accent: light blue
+  - scheme: slate
+    primary: red
+    accent: light blue
 markdown_extensions:
 - admonition
 - footnotes
@@ -79,6 +86,8 @@ nav:
   - Known incidents & advisories: history/incidents.md
 - Reference:
   - Overview: reference/index.md
+  - Branding & usage guidelines: reference/branding.md
+  - Canonical chain verification: reference/canonical-chain-verification.md
   - Canonical documents: reference/documents.md
   - Wallet files & locations: reference/wallet-files.md
   - ReddPaper: reference/reddpaper.md
@@ -99,8 +108,11 @@ nav:
     - Zapwallettxes (legacy): legacy_wiki/zapwallettxes.md
     - Core issues (legacy): legacy_wiki/core-issues.md
     - reddcoin.conf (legacy): legacy_wiki/reddcoin-conf.md
+- Changelog: changelog.md
 - Contributors:
   - How to Contribute: contribute.md
   - Sources & Attribution: sources.md
   - Telegram export notes: sources/telegram-export.md
   - Roadmap / Backlog: roadmap.md
+extra_css:
+- styles/brand.css
