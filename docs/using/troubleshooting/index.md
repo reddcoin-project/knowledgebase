@@ -4,7 +4,7 @@
 
 This section is a curated, **version-aware** set of runbooks for the ReddCoin Core desktop wallet.
 
-**Last reviewed:** 2026-02-12
+**Last reviewed:** 2026-02-13
 
 ## Start here
 

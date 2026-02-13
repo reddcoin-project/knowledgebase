@@ -10,7 +10,7 @@ If you sent RDD and it remains **unconfirmed**, or you see a “stuck” outgoin
 ## Step 1: Check whether the transaction actually left your wallet
 
 1. Copy the txid.
-2. Search it on an explorer (see [Explorer & APIs](../../tech/explorer.md)).
+2. Search it on an explorer (see [Explorer & APIs](../../tech/explorer/index.md)).
 
 If the txid **does not appear anywhere**, John Nash noted the transaction may not have left the wallet, and recommended `zapwallettxes` as the quickest fix in that situation.[^message1989698]
 

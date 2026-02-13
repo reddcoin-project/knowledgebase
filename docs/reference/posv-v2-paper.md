@@ -4,7 +4,7 @@
 **Date:** August 2019  
 **Authors:** Jay “TechAdept” Laurence & John “Crypto Gnasher” Nash
 
-PDF: [ReddPaper-PoSV-v2-Summer-2019.pdf](../assets/docs/ReddPaper-PoSV-v2-Summer-2019.pdf)
+PDF: [ReddPaper-PoSV-v2-Summer-2019.pdf](https://redd.love/assets/doc/ReddPaper-PoSV-v2-Summer-2019.pdf)
 
 ## Scope
 
@@ -19,4 +19,4 @@ It is the best single source for:
 ## Related pages
 
 - [PoSV v2 (overview)](../tech/consensus/posv-v2.md)
-- [PoSV v2 (chapter - detailed)](../tech/consensus/posv-v2-chapter.md)
+- [PoSV v2 (chapter - detailed)](../tech/consensus/posv-v2.md)

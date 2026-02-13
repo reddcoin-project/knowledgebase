@@ -4,7 +4,7 @@
 **Date:** September 2020  
 **Primary author:** Jay “TechAdept” Laurence (with the broader Project Redd team)
 
-PDF: [Redd-Book.pdf](../assets/docs/Redd-Book.pdf)
+PDF: [Redd-Book.pdf](https://redd.love/assets/doc/Redd-Book.pdf)
 
 ## What it is
 

@@ -2,6 +2,13 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
+## v0.21 (2026-02-13)
+
+- Performed a top-down QA pass and fixed **broken internal links** (including reference PDFs and Explorer pointers).
+- Standardized canonical document links to **redd.love** (ReddPaper, ReddBook, PoSV v2 paper/FAQ) to avoid missing local assets.
+- Restored/added a dedicated **Explorer & APIs** page and reconnected troubleshooting flows back to it.
+- Updated “Last updated / last verified” dates where applicable.
+
 ## v0.20 (2026-02-13)
 
 - Added a true **Start Here portal** with card-based quick actions and guided links.
@@ -45,11 +52,11 @@ Major:
 - Integrated official logo/art pack locally and wired it into theme branding.
 - Added Products, Partners, and expanded ReddID coverage with curated wiki sources.
 
-## v0.14 (2026-02-12)
+## v0.14 (2026-02-13)
 
 - Implemented brand palette + initial reference pages.
 - Added canonical chain verification reference and exchanges/markets matrix.
 
-## v0.13 (2026-02-12)
+## v0.13 (2026-02-13)
 
 - Initial packaged MkDocs baseline for the knowledgebase.

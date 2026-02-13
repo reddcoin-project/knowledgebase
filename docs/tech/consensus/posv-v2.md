@@ -162,8 +162,8 @@ flowchart TB
 
 ## References and further reading
 
-- PoSV v2 paper (Aug 2019): [ReddPaper PoSV v2 (Summer 2019)](../../assets/docs/ReddPaper-PoSV-v2-Summer-2019.pdf)
-- PoSV v2 FAQ (Aug 2019): [PoSV v2 FAQ](../../assets/docs/ReddPaper-PoSV-v2-FAQ.pdf)
+- PoSV v2 paper (Aug 2019): [ReddPaper PoSV v2 (Summer 2019)](https://redd.love/assets/doc/ReddPaper-PoSV-v2-Summer-2019.pdf)
+- PoSV v2 FAQ (Aug 2019): [PoSV v2 FAQ](https://redd.love/assets/doc/PoSV-v2-FAQ.pdf)
 - Official fork announcement: “Faith, Hope & Charity” — <https://www.reddcoin.com/faith-hope-charity-official-announcement-reddcoin-rdd-upcoming-consensus-fork-posv-v2-protocol-enhancement/>
 - Core release notes: Official Release v3.0 PoSV2 — <https://www.reddcoin.com/official-release-v3-0-posv2/>
 - (Optional) Broader explanation: “RDD PoSV v2 with Enhanced Staking…” — <https://www.reddcoin.com/rdd-posv-v2-with-enhanced-staking-a-simple-core-wallet-upgrade-and-a-quantum-leap-forward-for-reddcoin-rdd/>

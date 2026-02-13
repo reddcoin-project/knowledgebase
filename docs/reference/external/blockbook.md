@@ -40,4 +40,4 @@ Most Blockbook instances expose a standardized `/api/v2/...` REST surface. Typic
 
 ## Related
 
-- [Explorer & APIs](../../tech/explorer.md)
+- [Explorer & APIs](../../tech/explorer/index.md)

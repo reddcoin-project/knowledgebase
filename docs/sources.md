@@ -17,10 +17,10 @@ This knowledgebase is assembled from a mix of:
 
 These PDFs are included directly in this repo under `docs/assets/docs/`:
 
-- [ReddPaper (Aug 2019)](assets/docs/Redd-Paper.pdf)
-- [PoSV v2 paper (Aug 2019)](assets/docs/ReddPaper-PoSV-v2-Summer-2019.pdf)
-- [PoSV v2 FAQ](assets/docs/ReddPaper-PoSV-v2-FAQ.pdf)
-- [ReddBook (Sep 2020)](assets/docs/Redd-Book.pdf)
+- [ReddPaper (Aug 2019)](https://redd.love/assets/doc/Redd-Paper.pdf)
+- [PoSV v2 paper (Aug 2019)](https://redd.love/assets/doc/ReddPaper-PoSV-v2-Summer-2019.pdf)
+- [PoSV v2 FAQ](https://redd.love/assets/doc/PoSV-v2-FAQ.pdf)
+- [ReddBook (Sep 2020)](https://redd.love/assets/doc/Redd-Book.pdf)
 
 ## Operational sources (live network)
 

@@ -89,7 +89,7 @@ Logs
 
 Before you post:
 
-- Verify the transaction on an explorer (see [Explorer & APIs](../../tech/explorer.md)).
+- Verify the transaction on an explorer (see [Explorer & APIs](../../tech/explorer/index.md)).
 - Note the **txid**, **time sent**, and the exchange **ticker**.
 - Check whether the exchange is on **maintenance** (many venues post this).
 

@@ -2,7 +2,7 @@
 
 This page collates **real-world operational guidance** from the public ReddCoin Telegram export (Feb 2019 → Feb 2026), with emphasis on **recent years** and admin-authored support.
 
-It is intended for practical troubleshooting, not as a protocol spec. For the formal design, see **[Technology → PoSV v2 & Enhanced Staking](/tech/consensus/posv-v2.md)**.
+It is intended for practical troubleshooting, not as a protocol spec. For the formal design, see **[Technology → PoSV v2 & Enhanced Staking](../tech/consensus/posv-v2.md)**.
 
 !!! warning "Version-specific"
     ReddCoin guidance can be **version-specific**. If you're unsure what you run, start with **[Version matrix](version-matrix.md)** and **[Version compatibility & upgrades](troubleshooting/version-compatibility.md)**.

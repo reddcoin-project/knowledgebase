@@ -1,6 +1,6 @@
 # PoSV v2 FAQ
 
-PDF: [ReddPaper-PoSV-v2-FAQ.pdf](../assets/docs/ReddPaper-PoSV-v2-FAQ.pdf)
+PDF: [ReddPaper-PoSV-v2-FAQ.pdf](https://redd.love/assets/doc/PoSV-v2-FAQ.pdf)
 
 ## What this FAQ is for
 

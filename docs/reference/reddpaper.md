@@ -4,7 +4,7 @@
 **Date:** Aug 2019  
 **Authors:** Jay “TechAdept” Laurence & John “Gnasher” Nash  
 
-PDF: [Redd-Paper.pdf](../assets/docs/Redd-Paper.pdf)
+PDF: [Redd-Paper.pdf](https://redd.love/assets/doc/Redd-Paper.pdf)
 
 ## What it contains
 
@@ -39,5 +39,5 @@ The ReddPaper is the project’s updated whitepaper (originally April 2014), cov
 
 ## Related pages in this knowledgebase
 
-- [PoSV](../tech/consensus/posv.md)
+- [PoSV](../tech/consensus/posv-v2.md)
 - [PoSV v2](../tech/consensus/posv-v2.md)

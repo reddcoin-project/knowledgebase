@@ -5,7 +5,7 @@ ReddCoin Core has had multiple major wallet lines in the wild:
 - **v3.x** (legacy line)
 - **v4.22.x** (current desktop wallet line)
 
-!!! tip "Current status snapshot (Last reviewed: 2026-02-12)"
+!!! tip "Current status snapshot (Last reviewed: 2026-02-13)"
     - Latest published v4 desktop build folder in the official download index: **4.22.9**
       - https://download.reddcoin.com/bin/
     - Project updates describe work toward **4.22.10** with staged protocol activations (CSV, SegWit, and potentially Taproot). See:

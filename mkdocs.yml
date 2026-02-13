@@ -81,6 +81,7 @@ nav:
   - Consensus:
     - PoSV v2 & Enhanced Staking: tech/consensus/posv-v2.md
     - PoSV v2 Activation: tech/consensus/posv-v2-activation.md
+  - Explorer & APIs: tech/explorer/index.md
   - Infrastructure & repos: tech/infrastructure.md
 - Builders:
   - Overview: builders/index.md

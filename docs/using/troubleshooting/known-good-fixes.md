@@ -4,7 +4,7 @@
 
 This page collates fixes that are **explicitly version-sensitive**.
 
-!!! note "Last reviewed: 2026-02-12"
+!!! note "Last reviewed: 2026-02-13"
     The latest published v4 desktop build folder in the official download index is **4.22.9**. Planned / in-testing work toward **4.22.10** is tracked in official project updates (see **News → Releases**).
 
 ## v4.22.9 (and newer v4.22.x)
