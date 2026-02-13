@@ -35,105 +35,69 @@ markdown_extensions:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
-- Start Here:
-  - Overview: start-here/index.md
-  - Quickstart (choose your path): start-here/quickstart.md
-  - Knowledgebase Home: start-here/knowledgebase-home.md
-  - What is ReddCoin?: about/reddcoin.md
-  - Quick Links: community/links.md
-- Community:
-  - How we curate sources: community/triage.md
-  - Archive index: community/archive.md
-  - Telegram: community/telegram.md
-  - Reddit: community/reddit.md
-  - ReddcoinTalk forum: community/reddcointalk.md
-- Using RDD:
-  - Wallets: using/wallets.md
-  - Downloads: using/downloads.md
-  - Staking:
-    - Overview: using/staking.md
-    - Staking ops FAQ: using/staking-ops-faq.md
-    - Version matrix: using/version-matrix.md
-  - Troubleshooting:
-    - Overview: using/troubleshooting/index.md
-    - Quick triage (1–2 clicks): using/troubleshooting/quick-triage.md
-    - Decision tree: using/troubleshooting/decision-tree.md
-    - Support safety: using/troubleshooting/support-safety.md
-    - Getting help (templates): using/troubleshooting/getting-help.md
-    - Known-good fixes by version: using/troubleshooting/known-good-fixes.md
-    - Recipes:
-      - Clean resync (v4): using/troubleshooting/recipes/clean-resync-v4.md
-      - No peers / 0 connections: using/troubleshooting/recipes/no-peers.md
-      - Stuck transaction (zapwallettxes): using/troubleshooting/recipes/stuck-transaction-zapwallettxes.md
-      - Wrong fork / chain split: using/troubleshooting/recipes/wrong-fork-chain-split.md
-      - v3 → v4 upgrade: using/troubleshooting/recipes/v3-to-v4-upgrade.md
-      - Restore wallet files: using/troubleshooting/recipes/restore-wallet-files.md
-      - Restore from seed phrase (HD/BIP39): using/troubleshooting/recipes/hd-seed-phrase.md
-      - Staking doesn’t start: using/troubleshooting/recipes/staking-doesnt-start.md
-      - Staking expectations: using/troubleshooting/recipes/staking-expectations.md
-      - Export/import private key: using/troubleshooting/recipes/private-key-export-import.md
-      - debug.log basics: using/troubleshooting/recipes/debug-log-basics.md
-      - Exchange deposits/withdrawals: using/troubleshooting/recipes/exchange-deposits-withdrawals.md
-    - Version compatibility & upgrades: using/troubleshooting/version-compatibility.md
-    - Reindex & rescan: using/troubleshooting/reindex-rescan.md
-    - Bootstrap: using/troubleshooting/bootstrap.md
-- Technology:
-  - Consensus:
-    - PoSV v2 & Enhanced Staking: tech/consensus/posv-v2.md
-    - PoSV v2 Activation: tech/consensus/posv-v2-activation.md
-  - Explorer & APIs: tech/explorer/index.md
-  - Infrastructure & repos: tech/infrastructure.md
-- Builders:
-  - Overview: builders/index.md
-  - ReddID:
-    - Overview: builders/reddid/index.md
-    - Design Document (curated): builders/reddid/design-document.md
-    - Technical Architecture (curated): builders/reddid/technical-architecture.md
-    - Namespaces (builder-ready): builders/reddid/namespaces.md
-    - Database schema (builder-ready): builders/reddid/database-schema.md
-    - Implementation plan (builder-ready): builders/reddid/implementation-plan.md
-- Ecosystem:
-  - Products: ecosystem/products.md
-  - Builders (ReddID, specs, schema): builders/index.md
-  - Partners: ecosystem/partners.md
-  - Exchanges & Markets: ecosystem/markets.md
-- News & Updates:
-  - Overview: news/index.md
-  - Official publications: news/official-publications.md
-  - Releases & changelog hub: news/releases.md
-- History:
-  - Timeline: history/timeline.md
-  - Known incidents & advisories: history/incidents.md
-- Reference:
-  - Overview: reference/index.md
-  - Branding & usage guidelines: reference/branding.md
-  - UI/UX & IA review: reference/ui-ux-review.md
-  - Canonical chain verification: reference/canonical-chain-verification.md
-  - Canonical documents: reference/documents.md
-  - Wallet files & locations: reference/wallet-files.md
-  - ReddPaper: reference/reddpaper.md
-  - PoSV v2 paper: reference/posv-v2-paper.md
-  - PoSV v2 FAQ: reference/posv-v2-faq.md
-  - ReddBook: reference/reddbook.md
-  - External sources:
-    - Linktree: reference/external/linktree.md
-    - Blockbook: reference/external/blockbook.md
-  - Legacy wiki (curated):
-    - Overview: legacy_wiki/index.md
-    - Integrity report: legacy_wiki/integrity.md
-    - Exchanges (legacy): legacy_wiki/exchanges.md
-    - Wallet recovery (legacy): legacy_wiki/wallet-recovery.md
-    - Core issues (legacy): legacy_wiki/core-issues.md
-  - External links: reference/external/index.md
-- Changelog: changelog.md
-- Contributors:
-  - How to Contribute: contribute.md
-  - Sources & Attribution: sources.md
-  - Telegram export notes: sources/telegram-export.md
-  - Roadmap / Backlog: roadmap.md
-extra_css:
-- styles/brand.css
-- assets/stylesheets/extra.css
-plugins:
-- search:
-    separator: '[\s\-\.]+'
+  - Start Here:
+      - Home: index.md
+      - Quickstart (choose your path): start-here/quickstart.md
+      - Knowledgebase Home (wiki index): start-here/knowledgebase-home.md
+      - Project Values & Volunteer Ethos: about/values.md
+      - Live Project Status: transparency/status.md
+
+  - For Users:
+      - Downloads: using/downloads.md
+      - Wallets:
+          - Using the Core Wallet: using/core-wallet.md
+          - Upgrade to Core v4.22+: using/upgrade-core-4-22.md
+      - Staking:
+          - Staking 101 (PoSV & PoSV v2): using/staking-101.md
+          - Staking guide: using/staking.md
+          - Staking ops FAQ: using/staking-ops-faq.md
+      - Tipping & Social:
+          - Social tipping (ReddBot): using/tipping.md
+      - Self-custody & keys:
+          - The Redd Way: using/self-custody.md
+      - Troubleshooting:
+          - Overview: using/troubleshooting/index.md
+          - Quick triage: using/troubleshooting/quick-triage.md
+          - Canonical chain verification: reference/canonical-chain-verification.md
+
+  - For Developers & Nodes:
+      - Overview: builders/index.md
+      - ReddID (social identity layer):
+          - Hub: builders/reddid/index.md
+          - Name cost calculator: builders/reddid/name-cost-calculator.md
+          - Namespaces (builder-ready): builders/reddid/namespaces.md
+          - Database schema (builder-ready): builders/reddid/database-schema.md
+          - Implementation plan (builder-ready): builders/reddid/implementation-plan.md
+          - Technical architecture: builders/reddid/technical-architecture.md
+          - Design document: builders/reddid/design-document.md
+      - Node / network:
+          - Infrastructure & repos: tech/infrastructure.md
+          - Explorer & APIs: tech/explorer/index.md
+      - Consensus:
+          - PoSV v2 (spec): tech/consensus/posv-v2.md
+          - PoSV v2 activation: tech/consensus/posv-v2-activation.md
+      - RPC & API:
+          - RPC quick reference: tech/rpc.md
+
+  - Ecosystem:
+      - Products: ecosystem/products.md
+      - Partners: ecosystem/partners.md
+      - Exchanges & markets: ecosystem/markets.md
+
+  - Community:
+      - Links & join: community/links.md
+      - Telegram: community/telegram.md
+      - Reddit: community/reddit.md
+      - Archive & legacy: community/archive.md
+
+  - History:
+      - Timeline: history/timeline.md
+      - Incidents: history/incidents.md
+
+  - Reference:
+      - Branding & assets: reference/branding.md
+      - UI/UX & IA decisions: reference/ui-ux-review.md
+      - Sources & attribution: sources.md
+      - Contribute: contribute.md
+
+  - Changelog: changelog.md

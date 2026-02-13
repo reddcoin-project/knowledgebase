@@ -1,5 +1,17 @@
 # Knowledgebase changelog
 
+
+## v0.22 (2026-02-13)
+
+- Adopted dual-path information architecture: **For Users** vs **For Developers & Nodes**.
+- Refactored homepage to foreground **Faith, Hope, and Charity** mission and volunteer ethos.
+- Added **Live Project Status** transparency page linking to GitHub work streams.
+- Added **ReddID Name Cost Calculator** hub page with embedded official calculator and builder-ready logic notes.
+- Added **Staking 101** interactive teaching guide (PoSV/PoSV v2) with deep-dive toggles.
+- Added new user guides: social tipping (ReddBot), self-custody (The Redd Way), and Core v4.22+ upgrade.
+- Removed duplicate legacy ReddID docs under Ecosystem; Ecosystem now links to the canonical Builders hub.
+- Accessibility & usability polish: improved focus outlines, link discoverability, and long-form readability.
+
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
 ## v0.20 (2026-02-13)

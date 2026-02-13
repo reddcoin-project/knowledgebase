@@ -4,7 +4,13 @@ title: ReddCoin Knowledgebase
 
 Welcome, **ReddHeads** — builders, stakers, educators, and supporters helping secure the ReddCoin network.
 
-> **Live since 2014.** This knowledgebase is maintained as a community “single point of reference” for using RDD safely and building on ReddCoin.
+> **Live since 2014. 100% volunteer-run.** Built on Honesty, Transparency, and Crypto‑Ethics — “old school crypto” with modern usability.
+
+## Faith, Hope, and Charity
+
+ReddCoin is a social currency. The knowledgebase should feel like a community-run library — not a sales funnel.
+
+Read the mission statement: https://www.reddcoin.com/faith-hope-charity-official-announcement-reddcoin-rdd-upcoming-consensus-fork-posv-v2-protocol-enhancement/
 
 <div class="grid cards" markdown>
 

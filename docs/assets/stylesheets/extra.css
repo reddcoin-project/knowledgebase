@@ -49,3 +49,32 @@
 .md-typeset hr{
   border-bottom: 1px solid rgba(0,0,0,.10);
 }
+
+
+/* Accessibility: visible focus outlines */
+:focus-visible{
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+/* Improve link discoverability in long-form docs */
+.md-content a{
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Better reading comfort */
+.md-typeset{
+  line-height: 1.65;
+}
+.md-typeset p{
+  margin: 0 0 0.9em;
+}
+
+/* Card grid: slightly more social-first */
+.grid.cards > ul > li{
+  border-radius: 16px;
+}
+.grid.cards strong{
+  letter-spacing: .2px;
+}

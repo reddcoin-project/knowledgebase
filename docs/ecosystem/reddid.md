@@ -1,11 +1,13 @@
-# ReddID & Social Tipping
+---
+title: ReddID
+---
 
-ReddID is ReddCoin’s identity and social tipping layer.
+ReddID is ReddCoin’s social identity layer.
 
-This knowledgebase now maintains the ReddID documentation as a **section** with multiple pages:
+For the full builder-ready hub (namespaces, schema, implementation plan, and tools), go here:
 
-- **Overview:** `Ecosystem → ReddID → Overview`
-- **Design:** `Ecosystem → ReddID → Design Document (curated)`
-- **Architecture:** `Ecosystem → ReddID → Technical Architecture (curated)`
+- **For Developers & Nodes → ReddID hub**  
+  ../builders/reddid/index.md
 
-If you landed here via an older link, start with **Ecosystem → ReddID**.
+Canonical sources:
+- GitHub wiki: https://github.com/reddcoin-project/reddcoin/wiki
