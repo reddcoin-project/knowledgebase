@@ -31,6 +31,6 @@ For a deeper operational runbook (including multiplier talk, address/change beha
 
 ## Footnotes (Telegram export)
 
-[^message2038537]: Telegram export `message2038537` (2026-01-29, admin) — staking requires sync + unlock for staking only + anvil icon enable.
-[^message2011503]: Telegram export `message2011503` (2025-01-03, John Nash) — referenced ~8 hour minimum coin age.
-[^message1977272]: Telegram export `message1977272` (2024-01-30, John Nash) — coinage accumulates offline; must be online to stake.
+[^message2038537]: Telegram export (ReddCoinOfficial), 2026-01-29, obito, message2038537. Note: The staking does not start by default. To stake you must have the wallet fully synchronized with the network. Then there are two steps: 1) Unlock the wallet "for staking… Permalink: https://t.me/ReddcoinOfficial/2038537.
+[^message2011503]: Telegram export (ReddCoinOfficial), 2025-01-03, John (cryptognasher) Nash, message2011503. Note: Minimum is 8hrs. before they are considered for staking. How often will depend on how many coins you have. BTW, well done on sorting out the memory issue. Minimum of 4G … Permalink: https://t.me/ReddcoinOfficial/2011503.
+[^message1977272]: Telegram export (ReddCoinOfficial), 2024-01-30, John (cryptognasher) Nash, message1977272. Note: Coinage will increase whether you are online or not. But you do need to be online to stake. Permalink: https://t.me/ReddcoinOfficial/1977272.

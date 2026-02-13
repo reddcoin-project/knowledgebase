@@ -10,17 +10,6 @@ ReddCoin Core is the full node wallet used to store, send, receive, and (optiona
 - Keep your wallet up to date with current releases.
 - Prefer downloading binaries from official project sources.
 
-
-## Seed phrase vs imported keys (important)
-
-Modern Core (4.22.x) supports HD wallet flows (seed phrase), but note:
-
-- A **seed phrase backup** typically restores the HD wallet keys it created.
-- If you **import a single private key**, that key may **not** be derivable from the seed phrase.
-
-See: [Telegram field notes](troubleshooting/telegram-field-notes.md) for a real-world warning observed in support.
-
-
 ## Versions & compatibility notes
 
 Major wallet changes can require re-syncing chain data. Read release notes and upgrade instructions.
@@ -79,8 +68,8 @@ Use **File → Backup Wallet** and also keep a copy on removable storage.[^messa
 
 #### Footnotes
 
-[^message2034327]: Telegram export (ReddCoinOfficial), 2025-10-22, obito, message2034327. Permalink: https://t.me/ReddcoinOfficial/2034327.
-[^message2036056]: Telegram export (ReddCoinOfficial), 2025-12-04, obito, message2036056. Permalink: https://t.me/ReddcoinOfficial/2036056.
+[^message2034327]: Telegram export (ReddCoinOfficial), 2025-10-22, obito, message2034327. Note: Your wallet is on the incorrect blockchain. We had two bad forks a year ago. Backup the wallet.dat file on a different folder than that of the wallet and on a removable … Permalink: https://t.me/ReddcoinOfficial/2034327.
+[^message2036056]: Telegram export (ReddCoinOfficial), 2025-12-05, obito, message2036056. Note: One more thing. I assumed you upgraded your wallet from version 3 to version 4 using the same Reddcoin folder. By default, in version 3, wallet.dat file is in the root o… Permalink: https://t.me/ReddcoinOfficial/2036056.
 
 
 ## Third-party and mobile wallets (community notes)
@@ -93,7 +82,7 @@ Admins also mentioned some non-custodial third-party wallet options (at that tim
 
 #### Footnotes
 
-[^message2038344]: Telegram export (ReddCoinOfficial), 2026-01-26, obito, message2038344. Permalink: https://t.me/ReddcoinOfficial/2038344.
-[^message2038345]: Telegram export (ReddCoinOfficial), 2026-01-26, obito, message2038345. Permalink: https://t.me/ReddcoinOfficial/2038345.
-[^message2036635]: Telegram export (ReddCoinOfficial), 2025-12-13, obito, message2036635. Permalink: https://t.me/ReddcoinOfficial/2036635.
+[^message2038344]: Telegram export (ReddCoinOfficial), 2026-01-26, obito, message2038344. Note: Only the Web wallet and the Desktop wallet are at the latest version 0.9.3 The mobile wallets are not updated yet. Permalink: https://t.me/ReddcoinOfficial/2038344.
+[^message2038345]: Telegram export (ReddCoinOfficial), 2026-01-26, unknown, message2038345. Note: They plan to update soon also the mobile wallets. Permalink: https://t.me/ReddcoinOfficial/2038345.
+[^message2036635]: Telegram export (ReddCoinOfficial), 2025-12-13, obito, message2036635. Note: No. It's not planned. For mobile, you can use these non-custodial wallets: Komodo https://komodoplatform.com/en/wallet Coinomi https://www.coinomi.com/en/ ReddCoin Teleg… Permalink: https://t.me/ReddcoinOfficial/2036635.
 

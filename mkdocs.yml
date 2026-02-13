@@ -14,6 +14,9 @@ markdown_extensions:
 - footnotes
 - pymdownx.details
 - pymdownx.superfences
+- pymdownx.snippets:
+    base_path: docs
+    check_paths: true
 - toc:
     permalink: true
 nav:
@@ -22,7 +25,6 @@ nav:
   - What is ReddCoin?: about/reddcoin.md
   - Quick Links: community/links.md
 - Community:
-  - Official channels & handles: community/official_channels.md
   - How we curate sources: community/triage.md
   - Archive index: community/archive.md
   - Telegram: community/telegram.md
@@ -36,14 +38,24 @@ nav:
     - Version matrix: using/version-matrix.md
   - FAQs: using/faq.md
   - Troubleshooting:
-    - Telegram field notes: using/troubleshooting/telegram-field-notes.md
-    - Support scams & safety: using/troubleshooting/support-scams.md
     - Overview: using/troubleshooting/index.md
+    - Quick triage (1–2 clicks): using/troubleshooting/quick-triage.md
+    - Support safety: using/troubleshooting/support-safety.md
+    - Known-good fixes by version: using/troubleshooting/known-good-fixes.md
+    - Recipes:
+      - Clean resync (v4): using/troubleshooting/recipes/clean-resync-v4.md
+      - No peers / 0 connections: using/troubleshooting/recipes/no-peers.md
+      - Stuck transaction (zapwallettxes): using/troubleshooting/recipes/stuck-transaction-zapwallettxes.md
+      - Wrong fork / chain split: using/troubleshooting/recipes/wrong-fork-chain-split.md
+      - v3 → v4 upgrade: using/troubleshooting/recipes/v3-to-v4-upgrade.md
+      - Restore wallet files: using/troubleshooting/recipes/restore-wallet-files.md
+      - Restore from seed phrase (HD/BIP39): using/troubleshooting/recipes/hd-seed-phrase.md
+      - Staking doesn’t start: using/troubleshooting/recipes/staking-doesnt-start.md
+      - Staking expectations: using/troubleshooting/recipes/staking-expectations.md
+      - Export/import private key: using/troubleshooting/recipes/private-key-export-import.md
+      - debug.log basics: using/troubleshooting/recipes/debug-log-basics.md
+      - Exchange deposits/withdrawals: using/troubleshooting/recipes/exchange-deposits-withdrawals.md
     - Version compatibility & upgrades: using/troubleshooting/version-compatibility.md
-    - No peers / no block source: using/troubleshooting/no-peers.md
-    - Corrupted blockchain / resync: using/troubleshooting/corrupted-blockchain.md
-    - Stuck transactions: using/troubleshooting/stuck-transactions.md
-    - Wrong fork / wrong chain: using/troubleshooting/wrong-fork.md
     - Reindex & rescan: using/troubleshooting/reindex-rescan.md
     - Bootstrap: using/troubleshooting/bootstrap.md
 - Technology:
@@ -54,20 +66,13 @@ nav:
   - Explorer & APIs: tech/explorer.md
   - Infrastructure & repos: tech/infrastructure.md
 - Ecosystem:
-  - Markets snapshot (auto): ecosystem/markets_snapshot.md
   - ReddID & Social Tipping: ecosystem/reddid.md
   - Exchanges & Markets: ecosystem/markets.md
 - History:
   - Timeline: history/timeline.md
   - Known incidents & advisories: history/incidents.md
-- News & Updates:
-  - Overview: news/index.md
-  - Official blogs & publications: news/official_blogs.md
-  - Key posts & announcements: news/key_posts.md
 - Reference:
   - Overview: reference/index.md
-  - Current state dashboard: reference/current_state.md
-  - Versioning & compatibility: reference/versioning.md
   - Canonical documents: reference/documents.md
   - ReddPaper: reference/reddpaper.md
   - PoSV v2 paper: reference/posv-v2-paper.md

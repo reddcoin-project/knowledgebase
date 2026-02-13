@@ -1,83 +1,42 @@
 # Known incidents & advisories (curated)
 
-This page records **notable incidents and operational advisories** observed in the public ReddCoin Telegram channel export (Feb 2019 → Feb 2026), prioritized for **recent years** and **team/admin-authored** guidance.
+This page records **notable incidents and operational advisories** observed in public channels, prioritized for **recent years** and **team/admin-authored** guidance.
 
 !!! info "How to use this page"
-    - If you are troubleshooting a wallet today, start with **[Troubleshooting](../using/troubleshooting/index.md)**.
+    - For practical fixes, start with **[Troubleshooting](../using/troubleshooting/index.md)**.
     - If you’re unsure what version you run, read **[Version matrix](../using/version-matrix.md)**.
 
 ---
 
 ## 2024–2026 incident log (high signal)
 
-| Date (UTC) | What happened | Affected | What users saw | Recommended action | Sources |
-|---|---|---|---|---|---|
-| 2024-01-19 | Core v4.22.8 release announced | Desktop wallets | Upgrade questions; download links circulated | Prefer official downloads; expect resync when moving v3 → v4 | [^message1975134][^message1975136] |
-| 2024-08-17 | **Advisory:** Update required; old wallets implicated in chain splits | v2/v3 nodes; some services | Chain splits attributed to legacy nodes; v4 tx features rejected by v3 | Backup, upgrade legacy nodes to v4; coordinate with exchanges/services | [^message2000580][^message2000511] |
-| 2024-09-14 | **Incident:** two “bad fork” events at specific block heights | Nodes on wrong fork | Wrong chain, misleading staking, tx issues, explorers disagree | Verify block hashes; use `invalidateblock` on the bad hash or resync with clean chainstate | [^message2002551] |
-| 2025-02-25 | **Known issue:** v4.22.8 staking UX bug (toggle needed) | v4.22.8 | Staking not engaging even when unlocked | Unlock for staking → enable staking → if needed disable/enable staking icon | [^message2017279] |
-| 2025-02-17 → 2025-02-26 | v4.22.9 release candidates (rc1/rc2) circulated; sync issues reported resolved | v4 line | Improved ability to sync from genesis/bootstrap | Upgrade and resync; bootstrap optional | [^message2017927][^message2017951][^message2017953][^download4229rc] |
-| 2025-04-09 | v4.22.9 final binaries published on download site; ReddWallet page points to 4.22.9 as latest | Desktop wallets | “What version should I use?” | Prefer v4.22.9; verify checksums; resync if coming from v3 | [^download4229][^reddwallet4229] |
-| 2025-04-28 | v4.22.9 fast sync guidance and seed restore steps shared | v4.22.9+ | Faster sync; HD wallet restore flows | Use “Window → Information” to compare height vs Blockbook; restore via “Create/Restore Wallet…” | [^message2022388] |
-| 2025-06-08 | **Time-bound advisory:** potential seed-standard mismatch when encrypting during wallet creation (some setups) | v4 wallets (reported mid-2025) | Concern about BIP39/BIP44 mismatch at creation time | Create wallet unencrypted → then encrypt afterward; verify seed works | [^message2025586] |
+| Date | Type | What happened | Affected | What users saw | Recommended action | Sources |
+|---|---|---|---|---|---|---|
+| 2024-01-19 | Release / advisory | Core **v4.22.8** announced (incl. fix for blockchain stalling download) | Desktop wallets | Upgrade questions; sync behavior discussed | Prefer official downloads; treat v3→v4 as clean resync | [^message1975134][^message1975136] |
+| 2024-07-05 | Incident | **Wrong-chain / fork** observed; console-level recovery instructions shared | Some nodes; some services | Block heights differ; transactions with certain services fail | Safe-default: delete & resync (optionally bootstrap). Advanced: `invalidateblock <hash>` + restart | [^message1997330][^message1997333] |
+| 2024-08-17 | **Update required** | Team tracked incidental chain splits and highlighted conflicts between v4→v3 transaction behavior | Legacy v3 nodes; mixed services | Chainsplits; v3 not accepting certain v4 tx features | Backup and upgrade legacy nodes/services to v4; avoid mixed-version operation | [^message2000580] |
+| 2024-09-14 | Incident / diagnostic | Admin published **two known “bad fork” checks** (heights + hashes) and matching `invalidateblock` commands | Nodes on wrong forks | Wallet appears synced but has different blockhash at known heights | Use the published hash checks; for non-experts prefer full resync; experts can invalidate the wrong-fork hash | [^message2002551] |
+| 2024-08-22 | Infrastructure | Official **v4 bootstrap** link circulated by lead dev | Users needing fast sync | Slow initial sync; recovery workflows | Use official bootstrap v4; do not mix v3/v4 snapshots | [^message2001059] |
+| 2025-12-15 | Roadmap update | Dev update: **v4.22.10** in progress, targeting SegWit/CSV/Taproot with stronger test frameworks | Future release | Community asking for “what’s next” | Track official updates; expect release after functional tests complete | [^message2036694] |
+| 2026-02-12 | Operational check | Admin reiterated a **canonical blockhash check** for chain verification | Users diagnosing wrong chain | Wallet “synced” but mismatch suspected | `getblockhash 5519068` should match canonical hash | [^message2039543] |
 
 ---
 
-## 2024-09 “bad fork” details (block heights + hashes)
+## Notes on “wrong-chain stakes”
 
-Admins documented **two splits** and provided a deterministic way to check which chain you're on, using the Core debug console.[^message2002551]
-
-### Fork 1 — height 5,448,005
-
-Run:
-
-- `getblockhash 5448005`
-
-Expected (correct chain):
-
-- `99e1ba495f4da89c2a0c8a0296cb1df69d5a76488c06517a5aee5c0000c496da`
-
-Wrong-chain hash (bad fork):
-
-- `809a59a737c3479ac17ad0fd426193596cc02cfb82cd1c87fa05ef94f8f8587a`
-
-If on the wrong hash, admin instructions were:
-
-- `invalidateblock 809a59a737c3479ac17ad0fd426193596cc02cfb82cd1c87fa05ef94f8f8587a`
-
-### Fork 2 — height 5,519,068
-
-Run:
-
-- `getblockhash 5519068`
-
-Expected (correct chain):
-
-- `1d6ebb2d73dccc03b7b9b013c3b08ec8a83919ed4480edbad6e0604be53f5b40`
-
-Wrong-chain hash (bad fork):
-
-- `420d82c48eea24cd9a06b24cc012bb89abdcab95bdbc29ef02d9fd55ef41f570`
-
-If on the wrong hash, admin instructions were:
-
-- `invalidateblock 420d82c48eea24cd9a06b24cc012bb89abdcab95bdbc29ef02d9fd55ef41f570`
-
-!!! warning "Advanced recovery"
-    `invalidateblock` is an expert feature. Always back up `wallet.dat` first, and prefer the safe-default resync path in **[Wrong fork / wrong chain recovery](../using/troubleshooting/wrong-fork.md)** unless you know exactly what you're doing.
+Admins repeatedly emphasized that if your wallet is on a wrong fork, “stakes” and transactions may not be recognized once you return to the canonical chain. If you suspect this, follow **[Wrong fork / wrong chain recovery](../using/troubleshooting/wrong-fork.md)** first.
 
 ---
 
-## Footnotes (Telegram export)
+## Footnotes
 
-[^message1975134]: Telegram export `message1975134` (2024-01-19, TechAdept) — announcement that v4.22.8 is “done” with download link.
-[^message1975136]: Telegram export `message1975136` (2024-01-19, TechAdept) — GitHub repository link for v4.22.8.
-[^message2000580]: Telegram export `message2000580` (2024-08-17, admin) — “Important - Update Required” advisory about old wallets causing chain splits.
-[^message2000511]: Telegram export `message2000511` (2024-08-16, admin) — “chainsplits were created by old wallets” note.
-[^message2002551]: Telegram export `message2002551` (2024-09-14, admin) — detailed chain-split diagnosis + `getblockhash` and `invalidateblock` instructions.
-[^message2017279]: Telegram export `message2017279` (2025-02-25, admin) — v4.22.8 staking enable/disable workaround.
-[^message2017927]: Telegram export `message2017927` (2025-03-04, John Nash) — release resolved blockchain sync issue; can sync from genesis or bootstrap.
-[^message2017951]: Telegram export `message2017951` (2025-03-05, John Nash) — request for feedback on v4.22.9rc2.
-[^message2017953]: Telegram export `message2017953` (2025-03-05, admin) — v4.22.9rc2 availability announcement.
-[^message2022388]: Telegram export `message2022388` (2025-04-28, admin) — v4.22.9 fast sync, compare height vs Blockbook, restore via seed phrase UI flow.
-[^message2025586]: Telegram export `message2025586` (2025-06-08, admin) — time-bound warning about seed standard mismatch if encrypting during wallet creation, plus recommended workaround.
+
+[^message1975134]: Telegram export (ReddCoinOfficial), 2024-01-19, Tech Adept (RDD) reddcoin.com / redd.love, message1975134. Note: Hey, Good news.. 4.22.8 is done. https://download.reddcoin.com/bin/reddcoin-core-4.22.8/ there are 3 changes. 1. Fix for blockchain stalling download [This is a major]. … Permalink: https://t.me/ReddcoinOfficial/1975134.
+[^message1975136]: Telegram export (ReddCoinOfficial), 2024-01-19, Tech Adept (RDD) reddcoin.com / redd.love, message1975136. Note: https://github.com/reddcoin-project/reddcoin-0.22/releases/tag/v4.22.8 Permalink: https://t.me/ReddcoinOfficial/1975136.
+[^message1997330]: Telegram export (ReddCoinOfficial), 2024-07-05, John (cryptognasher) Nash, message1997330. Note: just to help out here..and for completeness in the console of core wallet invalidateblock 809a59a737c3479ac17ad0fd426193596cc02cfb82cd1c87fa05ef94f8f8587a this will take… Permalink: https://t.me/ReddcoinOfficial/1997330.
+[^message1997333]: Telegram export (ReddCoinOfficial), 2024-07-05, obito, message1997333. Note: After the command wrote by John the block heights still doesn't match? Your wallet is on the wrong chain. Until you fix this, you can't use your wallet Permalink: https://t.me/ReddcoinOfficial/1997333.
+[^message2000580]: Telegram export (ReddCoinOfficial), 2024-08-17, HPMentjox, message2000580. Note: ‼️ Important - Update Required ‼️ The ReddCoin CoreTeam has been tracking these incidental chainsplits that have happened twice now, and we have found an issue which is … Permalink: https://t.me/ReddcoinOfficial/2000580.
+[^message2002551]: Telegram export (ReddCoinOfficial), 2024-09-14, obito, message2002551. Note: We had two bad blockchain splits. First at block 5448005 and the second one at block 5519068. I) To verify if you're on the first bad fork run in the Console of the Core… Permalink: https://t.me/ReddcoinOfficial/2002551.
+[^message2001059]: Telegram export (ReddCoinOfficial), 2024-08-22, John (cryptognasher) Nash, message2001059. Note: V4 Bootstrap https://download.reddcoin.com/bin/bootstrap/v4/ Permalink: https://t.me/ReddcoinOfficial/2001059.
+[^message2036694]: Telegram export (ReddCoinOfficial), 2025-12-15, John (cryptognasher) Nash, message2036694. Note: Current Development Update - December 2025 Hey Reddcoin Family, As we get close to the end of 2025, I just wanted to give a heads up on where things are at with Reddcoin… Permalink: https://t.me/ReddcoinOfficial/2036694.
+[^message2039543]: Telegram export (ReddCoinOfficial), 2026-02-12, obito, message2039543. Note: Run in the Console of the Core Wallet: getblockhash 5519068 Is the output of this command this string of characters? 1d6ebb2d73dccc03b7b9b013c3b08ec8a83919ed4480edbad6e0… Permalink: https://t.me/ReddcoinOfficial/2039543.

@@ -1,76 +1,68 @@
 # Version compatibility & upgrades (v3 → v4)
 
-ReddCoin Core has had multiple major lines in the wild:
+ReddCoin Core has had multiple major wallet lines in the wild:
 
 - **v3.x** (legacy line)
-- **v4.22.x** (current desktop wallet line, based on Bitcoin Core 0.22 heritage)
+- **v4.22.x** (current desktop wallet line)
 
-## Key reality: v3 and v4 do not share a compatible on-disk chain state
+!!! info "Why upgrades feel “bigger” than expected"
+    v4 introduces newer wallet capabilities (HD seed phrase, multi-wallet tooling) and also changes what’s safe to reuse from an old install. Plan on a clean resync when moving from v3 → v4.
 
-Community support repeatedly observed that:
+---
 
-- Running **v4 over a v3 data directory** can cause peer-mixing (v3 peers cached in `peers.dat`) and/or a chain mismatch.
-- A common fix after upgrading is a **full resync** (delete `blocks/`, `chainstate/`, `indexes/`, and `peers.dat`, then sync again).
-- It is also possible to appear “healthy” while staking on a **wrong fork**, producing rewards that are not recognized on the correct chain.
+## The critical rule: do not reuse v3 chainstate in v4
+
+Community support repeatedly observed that running v4 over a v3 data directory can cause peer-mixing (v3 peers cached in `peers.dat`) and/or chain mismatch.
+
+**Safe default:** treat v3 → v4 as a clean install for blockchain data.
+
+---
 
 ## Quick upgrade checklist (safe-default)
 
-1. **Backup** `wallet.dat` (and any `wallets/` dir if present).  
-2. Install the **current v4 wallet** from the official download site.
-3. If you upgraded from v3, plan to **resync v4**:
-   - Close the wallet.
-   - Delete `blocks/`, `chainstate/`, `indexes/`, and `peers.dat` in the data directory.
-   - Restart and let it sync fully.
+1. **Backup**:
+   - `wallet.dat` (and/or the `wallets/` directory if present)
+2. Install the current **v4** wallet from official downloads.
+3. **Clean resync (recommended)**:
+   - Close Core.
+   - Delete (or move aside) `blocks/`, `chainstate/`, `indexes/` (if present), and `peers.dat` in the data directory.
+   - Start Core and let it fully sync.
+   - Optional: use the official **[v4 bootstrap](bootstrap.md)** to speed up sync.
 
-This specific delete-and-resync procedure (including default data paths for Linux/macOS/Windows) was repeatedly used by admins to resolve “blockchain data file is corrupted” and “incorrect blockchain” cases after v4 upgrades.[^message2035575]
+---
 
+## Two field-tested migration methods (v3 funds → v4 wallet)
 
-## Current stable wallet (as of Feb 2026)
+obito summarized two practical patterns used by community members.[^message1988156]
 
-- The official **ReddWallet** page lists **Reddcoin Core 4.22.9** as the latest desktop wallet.
-- Official binaries are hosted under `download.reddcoin.com/bin/` (look for `reddcoin-core-4.22.9/`), including a `SHA256SUMS` file.
+### Method 1: “New v4 address” (recommended if you want the v4 seed phrase workflow)
 
-> Note: community posts sometimes reference “4.22.10”, but if it is not present on the official download site, treat it as **planned / in-progress** rather than a generally available release.
+1. Open **Reddcoin Core v4** and generate a receiving address.
+2. Close v4.
+3. Open **v3** and **send** your coins to the v4 address you generated.
+4. Now your funds live in a v4 wallet that can be backed up via:
+   - v4 recovery seed phrase (HD wallet),
+   - `wallet.dat`,
+   - and private keys (as applicable).[^message1988156]
 
+### Method 2: “Move wallet.dat” (works, but seed phrase may not be usable as a backup)
 
+If you restore a v4 balance by copying `wallet.dat` across versions, users noted that the **v4 recovery seed phrase may not function as a backup** for that restored wallet state. In this case you should rely on:
 
-## Wallet file location difference (v3 vs v4)
+- `wallet.dat` backups
+- exported private keys (where appropriate)[^message1988156]
 
-If you install v4 fresh, note that `wallet.dat` should live in the **`wallets/`** subfolder (not the root data directory as in v3). See: [Wallets](../wallets.md#wallet-file-locations-walletdat-by-version).
+---
 
+## If you think you’re on the wrong chain
 
-## Data directory locations (defaults)
+If deposits/withdrawals don’t arrive, or your “synced” wallet doesn’t match explorers, read:
 
-- **Linux:** `~/.reddcoin`
-- **macOS:** `~/Library/Application Support/Reddcoin`
-- **Windows:** `%APPDATA%\Reddcoin`
-
-(These are the defaults cited in the admin runbook.[^message2035575])
-
-## When you might be on the wrong fork
-
-Warning signs:
-
-- You see staking activity, but a transaction/txid does not appear on explorers.
-- You have unusually few peers, or peers appear to be on mismatched versions.
-- Admins explicitly noted “v3 is on a fork of the blockchain” during the 2024 incidents.[^message2000805]
-
-If you suspect this, see: [Wrong fork / wrong chain](wrong-fork.md).
+- **[Wrong fork / wrong chain recovery](wrong-fork.md)**
 
 ---
 
 ## Footnotes
 
-[^message2035575]: Telegram export (ReddCoinOfficial), 2025-11-24, obito, message2035575. Permalink: https://t.me/ReddcoinOfficial/2035575.
-[^message2000805]: Telegram export (ReddCoinOfficial), 2024-08-19, John (cryptognasher) Nash, message2000805. Permalink: https://t.me/ReddcoinOfficial/2000805.
 
-
-## v4-specific notes (HD wallets / seed phrases)
-
-Support admins noted that v4 can support HD wallets with recovery seed phrases and multiple wallet files.[^message2025586]
-
-A **time-bound** warning (mid-2025) described a potential mismatch in seed standard when enabling encryption during wallet creation on some systems; suggested workaround was to create the wallet first, then encrypt afterward.[^message2025586]
-
-## v4 fast sync
-
-Admins also stated that newer v4 builds can synchronize quickly enough that bootstrap is often unnecessary, and recommended verifying your wallet’s “current block height” against Blockbook.[^message2022388]
+[^message1988156]: Telegram export (ReddCoinOfficial), 2024-03-23, obito, message1988156. Note: Method 1 - method where you take advantage of the recovery seed phrase v4 HD wallet Open ReddCoin Core Wallet 4.22.8. Generate a receiving address. Close the wallet. Ope… Permalink: https://t.me/ReddcoinOfficial/1988156.

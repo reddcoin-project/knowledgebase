@@ -6,10 +6,6 @@ This page is designed to be **operationally safe**:
 - It focuses on whether venues are real, reachable, and whether deposits/withdrawals function.
 - Every venue entry should include a **Last checked** date.
 
-!!! tip "Auto-updated snapshot"
-    See [Markets snapshot](markets_snapshot.md) for a daily-generated view from CoinGecko.
-
-
 ## Verification rubric (minimum)
 
 Before sending funds to an exchange or custodian, verify **at least**:
@@ -68,6 +64,6 @@ These are **time-bound** operational notes from public channel admins. They are 
 
 ### Footnotes
 
-[^message2038600]: Telegram export (ReddCoinOfficial), 2026-01-29, Kpcrypt0, message2038600. Permalink: https://t.me/ReddcoinOfficial/2038600.
-[^message2034105]: Telegram export (ReddCoinOfficial), 2025-10-18, obito, message2034105. Permalink: https://t.me/ReddcoinOfficial/2034105.
+[^message2038600]: Telegram export (ReddCoinOfficial), 2026-01-30, Kpcrypt0, message2038600. Note: We are coming with another ⚠️ warning ⚠️! It appears StakeCube has an extremely low volume on all markets together(less than $1000 on 24h). If you have funds there, and … Permalink: https://t.me/ReddcoinOfficial/2038600.
+[^message2034105]: Telegram export (ReddCoinOfficial), 2025-10-18, obito, message2034105. Note: StakeCube announcement Due to an apparent security issue discovered, we've locked down portions of the platform to prevent possible issues. All withdraws are paused for … Permalink: https://t.me/ReddcoinOfficial/2034105.
 

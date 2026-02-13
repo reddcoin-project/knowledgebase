@@ -37,7 +37,7 @@ If corruption repeats, consider running a disk health test (vendor utilities), a
 
 ## Footnotes
 
-[^message2035575]: Telegram export (ReddCoinOfficial), 2025-11-24, obito, message2035575. Permalink: https://t.me/ReddcoinOfficial/2035575.
-[^message2023494]: Telegram export (ReddCoinOfficial), 2025-05-12, obito, message2023494. Permalink: https://t.me/ReddcoinOfficial/2023494.
-[^message2019636]: Telegram export (ReddCoinOfficial), 2025-03-26, obito, message2019636. Permalink: https://t.me/ReddcoinOfficial/2019636.
-[^message2019637]: Telegram export (ReddCoinOfficial), 2025-03-26, obito, message2019637. Permalink: https://t.me/ReddcoinOfficial/2019637.
+[^message2035575]: Telegram export (ReddCoinOfficial), 2025-11-24, obito, message2035575. Note: ReddCoin Core wallet is not down. Either you have the old version v3 or the blockchain in the wallet is on the incorrect blockchain. Also it's normal for the "blockchain… Permalink: https://t.me/ReddcoinOfficial/2035575.
+[^message2023494]: Telegram export (ReddCoinOfficial), 2025-05-12, obito, message2023494. Note: Usually the blockchain gets corrupted when you shut down your computer before the wallet closes, or during a power outage, or if your hard drive has bad sectors. Every h… Permalink: https://t.me/ReddcoinOfficial/2023494.
+[^message2019636]: Telegram export (ReddCoinOfficial), 2025-03-26, unknown, message2019636. Note: Sometimes it happens that the hard drive has bad sectors that corrupts the blockchain. Permalink: https://t.me/ReddcoinOfficial/2019636.
+[^message2019637]: Telegram export (ReddCoinOfficial), 2025-03-26, unknown, message2019637. Note: Also if the computer shutdown while the wallet is open, can cause the corruption of the blockchain Permalink: https://t.me/ReddcoinOfficial/2019637.

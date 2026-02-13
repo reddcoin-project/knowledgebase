@@ -1,42 +1,45 @@
-# Reddit (r/reddCoin)
+# Reddit (r/reddCoin) — curated entry points
 
-## Access
+Reddit is a high-signal source for **real user reports** (what broke, how it was fixed), but it also accumulates stale advice across wallet eras.
 
-Subreddit: https://www.reddit.com/r/reddCoin/
+!!! warning "Version drift"
+    Always note the post date and the wallet version discussed. If you’re on modern Core v4, prioritize posts from 2024+ unless you are specifically researching legacy behavior.
 
-Reddit is useful as a searchable archive of “what users actually ran into”, especially around wallet upgrades, forks, sync issues, and staking behavior. It is not canonical: treat it as **Tier 3** and cross-check protocol claims against official docs.
+---
 
-## Curated high-signal threads (examples)
+## Where to start
 
-These are included because they repeatedly answer real support problems and contain concrete steps that can be verified.
+- Subreddit home: https://www.reddit.com/r/reddCoin/
+- Sort by “Top” (year / all time) to find historical context; sort by “New” for current issues.
 
-| Topic | Why it’s useful | Link | Status |
-|---|---|---|---|
-| Corrupted block database / v3 → v4 upgrade | Clear, step-by-step “clean install” guidance and bootstrap notes; also documents the risk of syncing onto a wrong fork without bootstrap | https://www.reddit.com/r/reddCoin/comments/1gznin7/corrupted_block_database_detected/ | Plausible (verify against official v4 notes) |
-| v4.22.9 wallet update announcement | Community-facing summary and download pointer (still verify official download domain) | https://www.reddit.com/r/reddCoin/comments/1cwnncv/reddcoin_4229_wallet_update_may_20_2024/ | Historical |
-| Getting onto the correct fork / old wallet problems | Points to existing instructions, common failure modes | https://www.reddit.com/r/reddCoin/comments/1idjzz1/how_to_pass_on_right_fork_chain_with_old_wallet/ | Plausible |
-| Restoring an old wallet.dat and resyncing | Practical overview of wallet.dat restore and bootstrap concepts | https://www.reddit.com/r/reddCoin/comments/18sg6fi/old_redd_wallet_how_do_i_get_back_on_the_current/ | Plausible |
-| Telegram join call-to-action | Confirms the official Telegram link and community funnel | https://www.reddit.com/r/reddCoin/comments/166ik8i/join_us_on_our_official_telegram_channel_and_meet/ | Confirmed |
-| Historic scalability discussion | Useful as historical context for transaction throughput/fees debates | https://www.reddit.com/r/reddCoin/comments/2jbhe0/can_we_make_more_than_10_million_transactions_per/ | Historical |
+---
 
-## How to search effectively
+## Curated technical threads (verify version applicability)
 
-- Prefer “site search” from a general search engine:
-  - `site:reddit.com/r/reddCoin corrupted block database`
-  - `site:reddit.com/r/reddCoin bootstrap`
-  - `site:reddit.com/r/reddCoin 4.22.9`
-- Sort by **Top** when looking for durable explanations; sort by **New** for current incident reports.
+### Core v4 era (2024+)
 
-## Sanitization notes
+- **Development update (Dec 2025)** — roadmap mentioning SegWit/CSV/Taproot and testing status  
+  https://www.reddit.com/r/reddCoin/comments/1pnznpp/reddcoin_development_update_december_2025/
+- **Wallet update discussion (4.22.9)**  
+  https://www.reddit.com/r/reddCoin/comments/1cwnncv/reddcoin_wallet_4229_update/
 
-When importing Reddit information into the wiki:
+### Mixed-era troubleshooting (treat as legacy unless confirmed)
 
-- Never embed screenshots that show private keys, full addresses, or balances.
-- Replace non-official download links with official equivalents where possible.
-- Prefer summarizing “symptom → verified fix” and link the thread for full context.
+- **`zapwallettxes=1` for stuck tx (legacy)**  
+  https://www.reddit.com/r/reddCoin/comments/kv6if9/using_zapwallettxes1/
+- **“No block source” / sync issues (legacy contexts)**  
+  https://www.reddit.com/r/reddCoin/comments/wd7oi0/reddcoin_wallet_no_block_source_detected/
+  https://www.reddit.com/r/reddCoin/comments/x0nqdp/reddcoin_sync_issue_on_mac/
 
+---
 
-## High-signal troubleshooting threads (examples)
+## How we use Reddit in this knowledgebase
 
-- Restoring with old `.dat` file (paths + wallets folder): https://www.reddit.com/r/reddCoin/comments/1jm25y9/restoring_with_old_dat_file/
-- 4.22.9 wallet update (staking enablement note): https://www.reddit.com/r/reddCoin/comments/1cwnncv/reddcoin_4229_wallet_update_may_20_2024/
+We treat Reddit threads as **Tier 2/3** evidence:
+
+- Tier 1: official releases, official downloads, official docs
+- Tier 2: admin-authored public guidance (Telegram / dev posts)
+- Tier 3: community troubleshooting threads (Reddit / forums)
+
+When a Reddit fix is included as a runbook step, we try to find an admin confirmation or a modern release note to support it.
+

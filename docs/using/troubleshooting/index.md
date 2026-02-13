@@ -1,20 +1,29 @@
 # Troubleshooting (ReddCoin Core)
 
-This section is a curated, **version-aware** set of runbooks for the ReddCoin Core desktop wallet.
+--8<-- "_includes/safety-banner.md"
 
-> **Safety first:** before you try any recovery action, make a copy of `wallet.dat` (and any `wallets/` directory) to an offline backup location.
+This section is a curated, **version-aware** set of runbooks for the ReddCoin Core desktop wallet.
 
 **Last reviewed:** 2026-02-12
 
 ## Start here
 
-1. **Confirm your Core version** (and whether you're on v3.x or v4.x). See: [Version compatibility & upgrades](version-compatibility.md)
-2. If you have **no peers / “no block source”**: see [No peers / no block source](no-peers.md)
-3. If you see **“blockchain data file is corrupted”**: see [Corrupted blockchain / resync](corrupted-blockchain.md)
-4. If you sent RDD and it is **unconfirmed / stuck**: see [Stuck transactions](stuck-transactions.md)
-5. If you suspect you are on the **wrong fork / wrong chain**: see [Wrong fork / wrong chain](wrong-fork.md)
-6. If you need startup flags like **reindex / rescan**: see [Reindex & rescan](reindex-rescan.md)
-7. If you want to **speed up sync**: see [Bootstrap](bootstrap.md)
+- **Fastest path:** [Quick triage (1–2 clicks)](quick-triage.md)
+- **Version sanity check:** [Version compatibility & upgrades](version-compatibility.md)
+- **Scam avoidance:** [Support safety](support-safety.md)
+- **Version-specific index:** [Known-good fixes by version](known-good-fixes.md)
+
+## Common fixes
+
+| Symptom | Fix |
+|---|---|
+| Won’t sync / stuck / corrupted | [Clean resync (v4)](recipes/clean-resync-v4.md) |
+| No peers / 0 connections | [No peers](recipes/no-peers.md) |
+| Transaction stuck / unconfirmed | [zapwallettxes](recipes/stuck-transaction-zapwallettxes.md) |
+| Wrong chain / fork | [Wrong fork / chain split](recipes/wrong-fork-chain-split.md) |
+| Upgrading v3 → v4 | [v3 → v4 upgrade](recipes/v3-to-v4-upgrade.md) |
+| Restoring wallet files | [Restore wallet files](recipes/restore-wallet-files.md) |
+| Staking not starting | [Enable staking + unlock](recipes/staking-doesnt-start.md) |
 
 ## Source provenance
 

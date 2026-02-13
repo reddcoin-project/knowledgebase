@@ -4,43 +4,31 @@ Linktree is used as a “single pointer” to key resources.
 
 - Linktree: https://linktr.ee/reddcoin
 
-## Snapshot (curated from Linktree)
+## Snapshot (as observed)
 
-### Websites
+**Core docs**
 
-- https://www.reddcoin.com/
-- Patreon: https://www.patreon.com/ReddCoin
+- ReddBook: https://redd.love/reddbook
+- ReddPaper (current): https://redd.love/reddpaper
+- ReddPaper (Summer 2019, PoSV v2): https://redd.love/reddpaper-posv-v2-summer-2019
 
-### Social media & discussion
+**Explorers & metrics**
+
+- Blockbook explorer: https://blockbook.reddcoin.com/
+- Money supply endpoint: https://blockbook.reddcoin.com/api/v2/supply
+
+**Community & comms**
 
 - Telegram: https://t.me/ReddcoinOfficial
-- X/Twitter: https://twitter.com/reddcoin
-- Bluesky: https://bsky.app/profile/reddcoin.bsky.social
-- Reddit: https://www.reddit.com/r/reddcoin
-- YouTube: https://www.youtube.com/user/OfficialReddcoin/
-- Stocktwits: https://stocktwits.com/ReddCoin
-- CoinMarketCap message board: https://coinmarketcap.com/
+- Twitter/X: https://twitter.com/reddcoin
+- Reddit: https://reddit.com/r/reddcoin
 
-### Data aggregators
+**Exchanges (short list)**
 
-- CoinGecko: https://www.coingecko.com/en/coins/reddcoin
-- CoinMarketCap: https://coinmarketcap.com/
-- Coinpaprika: https://coinpaprika.com/
+- NonKYC: https://nonkyc.io/market/RDD_BTC
+- StakeCube: https://stakecube.net/app/exchange/RDD_SCC
+- FreiExchange: https://freiexchange.com/market/RDD/LTC
+- EnnoDigital: https://ennodigital.com/exchange/RDD_BTC
 
-### Exchanges (Linktree short list)
+> Caution: Linktree also links to a few third‑party utilities (e.g., paper wallet tools). Treat those as **unverified external tools** unless the core team explicitly endorses them in a security-reviewed way.
 
-- NonKYC: https://nonkyc.io/
-- StakeCube: https://stakecube.net/
-- FreiExchange: https://freiexchange.com/
-- EnnoDigital: https://enordigital.com/
-
-### Explorers
-
-- Blockbook: https://blockbook.reddcoin.com/
-- rddblockexplorer.com: https://rddblockexplorer.com/
-
-### Third-party wallets / tools
-
-Linktree includes links to third-party wallets and paper-wallet tools. Treat these as **unverified** and do your own due diligence before using them with meaningful funds.
-
-(If you can’t independently verify the tool’s security model, prefer ReddCoin Core + offline backups.)

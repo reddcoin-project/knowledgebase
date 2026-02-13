@@ -54,11 +54,38 @@ Then in **Settings → Pages**, set the publishing source to the `gh-pages` bran
   `https://<USER_OR_ORG>.github.io/`
 
 
-## Auto-updated pages
 
-This repo includes an optional scheduled workflow that updates:
+## Deploy to GitHub Pages using the GitHub web UI (no local tooling)
 
-- `Reference → Current state dashboard`
-- `Ecosystem → Markets snapshot`
+This is the “web GUI only” approach (useful when you have a ZIP archive and want to publish fast).
 
-Workflow: `.github/workflows/update-snapshots.yml` (daily schedule + manual dispatch)
+### 1) Create or open the repo
+
+1. In GitHub, create/open the repo (example: `reddcoin-project/knowledgebase`).
+2. Ensure the default branch is `main`.
+
+### 2) Upload the ZIP contents
+
+1. Download and unzip the archive on your computer.
+2. In GitHub, open the repo → click **Add file → Upload files**.
+3. Drag **the unzipped contents** (folders like `docs/`, `.github/`, plus files like `mkdocs.yml`, `requirements.txt`, `README.md`) into the uploader.
+4. Scroll down and **Commit changes** to `main`.
+
+> Tip: Don’t upload the ZIP itself. Upload the *contents* of the ZIP.
+
+### 3) Enable Pages (GitHub Actions)
+
+1. Repo → **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+
+### 4) Trigger the build
+
+- Go to **Actions** → select the Pages workflow (from `.github/workflows/pages.yml`) → **Run workflow**  
+  or just push/commit another small change to trigger it.
+
+When the workflow completes, GitHub Pages will publish at:
+
+- `https://<org>.github.io/<repo>/`
+
+---
+

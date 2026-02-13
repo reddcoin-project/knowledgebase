@@ -42,11 +42,11 @@ This page helps you quickly identify what guidance applies to your wallet/node.
 
 ## Footnotes (Telegram export)
 
-[^message2038537]: Telegram export `message2038537` (2026-01-29, admin) — staking does not start by default in v4; sync + unlock + enable staking.
-[^message2025586]: Telegram export `message2025586` (2025-06-08, admin) — v4 fast sync guidance and time-bound wallet-creation notes.
-[^message2022388]: Telegram export `message2022388` (2025-04-28, admin) — compare wallet block height to Blockbook; seed restore steps.
-[^message2000580]: Telegram export `message2000580` (2024-08-17, admin) — “Important - Update Required” advisory about old wallets and chain splits.
-[^message2000511]: Telegram export `message2000511` (2024-08-16, admin) — chainsplits created by old wallets, including v2 nodes.
+[^message2038537]: Telegram export (ReddCoinOfficial), 2026-01-29, obito, message2038537. Note: The staking does not start by default. To stake you must have the wallet fully synchronized with the network. Then there are two steps: 1) Unlock the wallet "for staking… Permalink: https://t.me/ReddcoinOfficial/2038537.
+[^message2025586]: Telegram export (ReddCoinOfficial), 2025-06-08, obito, message2025586. Note: Starting with v4, bootstrap is no longer required because the wallet has a fast sync feature. That particular bootstrap was created to add the correct blockchain to the … Permalink: https://t.me/ReddcoinOfficial/2025586.
+[^message2022388]: Telegram export (ReddCoinOfficial), 2025-04-28, obito, message2022388. Note: Version 4.22.9 does not need bootstrap because it synchronizes very quickly. After the wallet is fully synchronized with the network, check if you are on the correct blo… Permalink: https://t.me/ReddcoinOfficial/2022388.
+[^message2000580]: Telegram export (ReddCoinOfficial), 2024-08-17, HPMentjox, message2000580. Note: ‼️ Important - Update Required ‼️ The ReddCoin CoreTeam has been tracking these incidental chainsplits that have happened twice now, and we have found an issue which is … Permalink: https://t.me/ReddcoinOfficial/2000580.
+[^message2000511]: Telegram export (ReddCoinOfficial), 2024-08-16, obito, message2000511. Note: Read this https://t.me/ReddcoinOfficial/1988156 Permalink: https://t.me/ReddcoinOfficial/2000511.
 
 
 [^download4229]: Download index for ReddCoin Core v4.22.9 binaries (dated 2025-04-09). See `download.reddcoin.com/bin/reddcoin-core-4.22.9/`.

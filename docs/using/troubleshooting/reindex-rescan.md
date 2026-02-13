@@ -26,5 +26,5 @@ A rescan can be appropriate after restoring an older wallet file, but it is slow
 
 ## Footnotes
 
-[^message1997316]: Telegram export (ReddCoinOfficial), 2024-07-05, John (cryptognasher) Nash, message1997316. Permalink: https://t.me/ReddcoinOfficial/1997316.
-[^message1962358]: Telegram export (ReddCoinOfficial), 2023-12-12, Kpcrypt0, message1962358. Permalink: https://t.me/ReddcoinOfficial/1962358.
+[^message1997316]: Telegram export (ReddCoinOfficial), 2024-07-05, John (cryptognasher) Nash, message1997316. Note: Firstly, make a backup of your wallet.dat as a precaution. Based on the error, the first thing to try is reindex as a part of startup There are 2 types of index Chainsta… Permalink: https://t.me/ReddcoinOfficial/1997316.
+[^message1962358]: Telegram export (ReddCoinOfficial), 2023-12-12, unknown, message1962358. Note: Add "-reindex" in the command line. If you don't know how, it's the same as zapwallet. https://wiki.reddcoin.com/Remove_stuck_transactions_with_zapwallettxes Permalink: https://t.me/ReddcoinOfficial/1962358.

@@ -4,11 +4,6 @@ This page summarizes the legacy wiki’s operational guidance for restoring acce
 
 **Primary source:** `wiki.reddcoin.com/Restore_your_wallet` permalink `oldid=4846`.
 
-
-!!! info "v4.22.x note (modern Core)"
-    Modern Core (4.22.x) can store wallets under a **`wallets/`** subfolder inside the data directory.
-    If you don’t see `wallet.dat` in the root data directory, look for **`wallets/`**.
-
 ## Core idea
 
 If you have a backup wallet file (a `.dat` file), you can restore it by placing it into your **Reddcoin data directory** as `wallet.dat`, then starting Reddcoin Core.

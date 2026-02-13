@@ -7,7 +7,7 @@ This runbook is for cases where Core shows **0 connections**, **no block source*
 Admins repeatedly recommended:
 
 - **Close Core**
-- Delete (or rename) `peers.dat` (and optionally `anchors.dat`)
+- Delete (or rename) `peers.dat`
 - Reopen Core, allowing it to discover fresh peers again
 
 TechAdept summarized this as a safe first-step when the wallet can’t find valid peers.[^message1908849][^message1908882]
@@ -20,9 +20,7 @@ For v4 specifically, obito noted that installing v4 over v3 can leave a v3-creat
 2. Go to the data directory (see [Version compatibility](version-compatibility.md)).
 3. **Backup** `wallet.dat` (do not skip).
 4. Delete (or rename) **`peers.dat`**.
-5. Optional: delete **`anchors.dat`** (if present).
-6. Restart Core and wait a few minutes.
-
+5. Restart Core and wait a few minutes.
 
 ### If it still doesn’t connect
 
@@ -38,8 +36,8 @@ John Nash noted that peer discovery may “eventually” increase naturally, but
 
 ## Footnotes
 
-[^message1908849]: Telegram export (ReddCoinOfficial), 2023-05-24, Tech Adept (RDD) reddcoin.com / redd.love, message1908849. Permalink: https://t.me/ReddcoinOfficial/1908849.
-[^message1908882]: Telegram export (ReddCoinOfficial), 2023-05-24, Tech Adept (RDD) reddcoin.com / redd.love, message1908882. Permalink: https://t.me/ReddcoinOfficial/1908882.
-[^message2002895]: Telegram export (ReddCoinOfficial), 2024-09-18, obito, message2002895. Permalink: https://t.me/ReddcoinOfficial/2002895.
-[^message2012462]: Telegram export (ReddCoinOfficial), 2025-01-09, obito, message2012462. Permalink: https://t.me/ReddcoinOfficial/2012462.
-[^message2016709]: Telegram export (ReddCoinOfficial), 2025-02-18, John (cryptognasher) Nash, message2016709. Permalink: https://t.me/ReddcoinOfficial/2016709.
+[^message1908849]: Telegram export (ReddCoinOfficial), 2023-05-24, Tech Adept (RDD) reddcoin.com / redd.love, message1908849. Note: Might be a firewall issue or something similarly network related. If you're technically savvy, shutting down the wallet software and deleting the "peers.dat" file (NOT t… Permalink: https://t.me/ReddcoinOfficial/1908849.
+[^message1908882]: Telegram export (ReddCoinOfficial), 2023-05-24, Tech Adept (RDD) reddcoin.com / redd.love, message1908882. Note: If your issue is that the wallet doesn’t see any valid peers, and is reporting “no block source”, that’s something different than an issue with the blocks themselves. Di… Permalink: https://t.me/ReddcoinOfficial/1908882.
+[^message2002895]: Telegram export (ReddCoinOfficial), 2024-09-18, obito, message2002895. Note: v4 wallet should connect only to v4 peers. I think you have this problem because if you installed v4 over v3, so you use the peers.dat file created by v3 in the data fol… Permalink: https://t.me/ReddcoinOfficial/2002895.
+[^message2012462]: Telegram export (ReddCoinOfficial), 2025-01-10, obito, message2012462. Note: You don't need any addnode list. Remove the peers.dat file because it contains v3 peers and restart the wallet. The wallet will create a new file with v4 peers. Permalink: https://t.me/ReddcoinOfficial/2012462.
+[^message2016709]: Telegram export (ReddCoinOfficial), 2025-02-18, John (cryptognasher) Nash, message2016709. Note: If the 2 connections are 4.22.9 eventually it will increase. The 4.22.9 peers will eventually announce their presence. However, if you want to fast track. Stop wallet, d… Permalink: https://t.me/ReddcoinOfficial/2016709.
