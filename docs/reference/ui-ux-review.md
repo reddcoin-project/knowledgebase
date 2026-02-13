@@ -34,3 +34,12 @@ We enforce readable header contrast and consistent link emphasis so key actions 
 ## What to improve next
 - Add diagrams for ReddID flows (namespaces → resolution → wallet integration)
 - Add a minimal “Network status / advisories” banner when incidents occur
+
+
+## Contrast & visibility (trust markers)
+
+- **Header and tabs use a dark surface** with white text to prevent “white-on-white” and to keep navigation readable in both light and dark modes.
+- Announcement/banner surfaces (if enabled) are forced to a dark background with high-contrast text.
+- The custom stylesheet is loaded via `extra_css` in `mkdocs.yml` (see `docs/assets/stylesheets/extra.css`).
+
+Last reviewed: 2026-02-13

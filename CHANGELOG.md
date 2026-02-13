@@ -1,6 +1,14 @@
 # Knowledgebase changelog
 
 
+## v0.23 (2026-02-13)
+
+- Added **Social tipping (ReddBot)** hub with platform sub-guides (Twitter/X, Twitch, Telegram, Reddit, Discord).
+- Expanded **Upgrade to Core v4.22+** into a builder/operator-ready guide (download verification, post-upgrade checklist, troubleshooting).
+- Fixed/locked **banner + header contrast** and ensured the site’s custom stylesheet loads via `extra_css` (prevents white-on-white visibility issues).
+- Updated UI/UX decision log with explicit contrast + trust-marker guidance.
+
+
 ## v0.22 (2026-02-13)
 
 - Adopted dual-path information architecture: **For Users** vs **For Developers & Nodes**.

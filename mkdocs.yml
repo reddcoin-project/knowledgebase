@@ -52,7 +52,13 @@ nav:
           - Staking guide: using/staking.md
           - Staking ops FAQ: using/staking-ops-faq.md
       - Tipping & Social:
-          - Social tipping (ReddBot): using/tipping.md
+          - Social tipping (ReddBot): using/tipping/index.md
+          - Twitter/X: using/tipping/twitter.md
+          - Twitch: using/tipping/twitch.md
+          - Telegram: using/tipping/telegram.md
+          - Reddit: using/tipping/reddit.md
+          - Discord: using/tipping/discord.md
+
       - Self-custody & keys:
           - The Redd Way: using/self-custody.md
       - Troubleshooting:
@@ -101,3 +107,7 @@ nav:
       - Contribute: contribute.md
 
   - Changelog: changelog.md
+
+
+extra_css:
+  - assets/stylesheets/extra.css

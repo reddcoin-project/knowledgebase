@@ -78,3 +78,14 @@
 .grid.cards strong{
   letter-spacing: .2px;
 }
+
+
+/* Announcement / banner safety: avoid white-on-white */
+.md-banner, .md-announce{
+  background: #111 !important;
+  color: #fff !important;
+}
+.md-banner a, .md-announce a{
+  color: var(--md-accent-fg-color) !important;
+  text-decoration: underline;
+}
