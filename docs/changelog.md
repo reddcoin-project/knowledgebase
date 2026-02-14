@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.36
+- Major expansion of technical/infrastructure documentation:
+  - Added Network Architecture deep dive
+  - Added PoSV v2 technical explanation page
+- Exchanges: began structured “Former major venues” ledger expansion
+- Added Technical Documentation Hub page for long‑term maintainability
+
+
 ## v0.35
 - Exchanges: added Verified delistings/removals ledger (primary sources only).
 - Exchanges: added curated r/reddcoin exchange/listings index for community evidence.

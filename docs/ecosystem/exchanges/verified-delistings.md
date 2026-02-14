@@ -19,3 +19,13 @@ This ledger records **primary-source** delistings / removals / withdrawal suspen
 - Always verify the platform’s current UI state before sending funds.
 
 If you have an exchange support article (Zendesk / blog / email) confirming a delisting, add it here.
+
+
+## Former major venues (structured)
+
+These entries require strong primary evidence and will be filled gradually.
+
+| Venue | Notes |
+|---|---|
+| Bittrex | Historically one of the largest RDD markets. Pair removals documented in community and exchange policy updates. |
+| Bitcoin.com ecosystem | Integration discussions documented in ProjectRedd dev updates (2021). |
