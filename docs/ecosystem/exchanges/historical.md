@@ -37,3 +37,11 @@ If you have an official announcement link for a delisting, add it to this page v
 | BitMart  | Historical listing | Official announcement |
 | Bittrex  | Historical markets | Community + exchange policy references |
 | Bitcoin.com | Historical ecosystem reference | WIP source verification |
+
+### Bitcoin.com / exchange.bitcoin.com (offer / integration discussion, Q1 2021)
+ProjectRedd reported an offer to list RDD and integrate on exchange.bitcoin.com:
+- https://medium.com/projectredd/3-26-21-end-q1-reddcoin-rdd-core-dev-status-update-9fbc075d427f
+
+### Xeggex (listed January 2023 — historical note)
+TechAdept’s 2023 year-in-review references an RDD listing on Xeggex:
+- https://techadept.medium.com/reddcoin-2023-the-year-in-review-a-redd-trospective-275dbab65abf

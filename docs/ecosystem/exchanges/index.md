@@ -12,7 +12,7 @@ This section is designed to be **honest and practical**:
 
 **If you can’t withdraw to your own wallet, you don’t own it.**
 
-See: [Self‑custody and keys](../security/self-custody.md)
+See: [Self‑custody and keys](../../using/self-custody.md)
 
 ## Data sources (aggregators)
 
@@ -30,3 +30,6 @@ Use these as “discovery tools,” then verify on the exchange itself:
 - [Official announcements](announcements.md)
 
 - [Safety checklist](safety-checklist.md)
+
+- [Where to buy RDD (today)](where-to-buy.md)
+- [Exchange history timeline](timeline.md)

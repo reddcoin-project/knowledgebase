@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.34.1
+- Fix: corrected broken self-custody link on Ecosystem → Exchanges overview.
+- Fix: enabled Markdown tables extension to prevent footnote backref anchor warnings in strict builds.
+
+
+## v0.34
+- Expanded Exchanges section: added “Where to buy RDD (today)” and “Exchange history timeline” pages.
+- Strengthened historical archive with primary-source references (Bitcoin.com offer via Q1 2021 dev update; Xeggex listing mention via 2023 year-in-review).
+- Upgraded Ecosystem navigation to provide a fully structured Exchanges submenu.
+- Release hygiene: preserved single deploy workflow (deploy-pages.yml).
+
+
 ## v0.33
 - Corrected historical exchange reference: Bitcoin.com replaces Crypto.com.
 - Added structured archive table for historical exchanges.

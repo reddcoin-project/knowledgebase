@@ -25,6 +25,7 @@ theme:
 markdown_extensions:
 - attr_list
 - md_in_html
+- tables
 - pymdownx.magiclink
 - pymdownx.tabbed:
     alternate_style: true

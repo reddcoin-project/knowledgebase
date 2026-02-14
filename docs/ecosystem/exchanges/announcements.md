@@ -13,3 +13,6 @@ When adding an announcement:
 - prefer the original post (reddcoin.com, @reddcoin, projectredd Medium)
 - include the date in the bullet text
 - avoid copying whole articles (use short summary + link)
+
+- Exchange listing mention (Xeggex, Jan 2023, TechAdept Year-in-Review): https://techadept.medium.com/reddcoin-2023-the-year-in-review-a-redd-trospective-275dbab65abf
+- Market discovery reference (CoinGecko RDD page): https://www.coingecko.com/en/coins/reddcoin
