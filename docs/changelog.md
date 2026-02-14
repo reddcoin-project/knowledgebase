@@ -1,5 +1,11 @@
 # Changelog
 
+
+## v0.31
+- Ecosystem Partners: rebuilt layout into card-grid, removed stray citation markup that broke rendering, and expanded integrations list from public announcements.
+- Build hygiene: removed accidental extra workflow file (.github/workflows/pages.yml); keep deploy-pages.yml only.
+
+
 ## v0.30
 ## v0.30.3
 
