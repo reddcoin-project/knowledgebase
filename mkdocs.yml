@@ -50,6 +50,7 @@ nav:
       - Project Values & Volunteer Ethos: about/values.md
       - Roadmap Philosophy: about/roadmap-philosophy.md
       - Why ReddCoin Still Matters: about/why-reddcoin-matters.md
+      - Decentralization & Governance: about/governance.md
       - Live Project Status: transparency/status.md
 
   - For Users:
@@ -83,6 +84,7 @@ nav:
       - ReddID (social identity layer):
           - Hub: builders/reddid/index.md
       - Architecture overview: builders/architecture-overview.md
+      - Technical Deep Dives: builders/technical-deep-dives.md
           - Name cost calculator: builders/reddid/name-cost-calculator.md
           - Namespaces (builder-ready): builders/reddid/namespaces.md
           - Database schema (builder-ready): builders/reddid/database-schema.md
@@ -115,6 +117,7 @@ nav:
       - Timeline: history/timeline.md
       - Incidents: history/incidents.md
       - Historical Archive Index: history/historical-archive.md
+      - ReddCoin Canon: history/canon.md
 
   - Reference:
       - Branding & assets: reference/branding.md

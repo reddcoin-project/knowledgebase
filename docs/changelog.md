@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.29
+- Added Decentralization & Governance page.
+- Added ReddCoin Canon primary documents index.
+- Added Technical Deep Dives diagrams.
+- Enhanced State of the Network verification checklist.
+
+
 ## v0.28
 - Added Roadmap Philosophy page.
 - Added ReddHead Contributors recognition page.

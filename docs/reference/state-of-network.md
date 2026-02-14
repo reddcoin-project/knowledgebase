@@ -29,3 +29,13 @@ ReddCoin prioritizes stability, transparency, and volunteer stewardship.
 - Knowledgebase version: v0.28
 
 _Update cadence is volunteer-driven._
+
+
+## Verification Checklist
+
+- Confirm latest release on GitHub: https://github.com/reddcoin-project/reddcoin/releases
+- Confirm explorer responding.
+- Confirm downloads host reachable.
+- Confirm knowledgebase version: v0.29
+
+_Last verified: 2026-02-13_
