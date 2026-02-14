@@ -21,3 +21,9 @@ Always verify:
 - your jurisdiction / KYC rules
 
 If you find a verified active market that is missing here, open a GitHub issue or PR with the source link.
+
+
+## Quick snapshot (CoinGecko)
+
+CoinGecko currently identifies **Nonkyc.io** as a popular venue for RDD trading (verify before use):
+- https://www.coingecko.com/en/coins/reddcoin

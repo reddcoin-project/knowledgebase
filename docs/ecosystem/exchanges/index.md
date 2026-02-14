@@ -33,3 +33,6 @@ Use these as “discovery tools,” then verify on the exchange itself:
 
 - [Where to buy RDD (today)](where-to-buy.md)
 - [Exchange history timeline](timeline.md)
+- [Verified delistings ledger](verified-delistings.md)
+- [r/reddcoin exchange index](reddit-index.md)
+- [Official/public exchange announcements](social-announcements.md)

@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.35
+- Exchanges: added Verified delistings/removals ledger (primary sources only).
+- Exchanges: added curated r/reddcoin exchange/listings index for community evidence.
+- Exchanges: added official/public announcement index (X/Twitter + Medium) for historical claims.
+- Current markets: added CoinGecko “quick snapshot” pointer (Nonkyc.io mention; verify before use).
+- Release hygiene: preserved single deploy workflow (deploy-pages.yml).
+
+
 ## v0.34.1
 - Fix: corrected broken self-custody link on Ecosystem → Exchanges overview.
 - Fix: enabled Markdown tables extension to prevent footnote backref anchor warnings in strict builds.
