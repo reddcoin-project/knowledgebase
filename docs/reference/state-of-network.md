@@ -18,3 +18,14 @@ _Last verified: 2026-02-13_
 - No official support desk will DM you.
 
 ReddCoin prioritizes stability, transparency, and volunteer stewardship.
+
+
+## Quick Metrics (Manual Verification)
+
+- Project founded: 2014
+- Current consensus: PoSV v2
+- Volunteer model: Yes
+- GitHub org active: Yes
+- Knowledgebase version: v0.28
+
+_Update cadence is volunteer-driven._

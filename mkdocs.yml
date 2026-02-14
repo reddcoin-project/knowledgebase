@@ -1,3 +1,4 @@
+site_url: https://reddcoin-project.github.io/knowledgebase/
 site_name: ReddCoin Knowledgebase
 site_description: Community-maintained single point of reference for ReddCoin (RDD),
   ReddNetwork, and Project Redd.
@@ -47,6 +48,7 @@ nav:
       - Quickstart (choose your path): start-here/quickstart.md
       - Knowledgebase Home (wiki index): start-here/knowledgebase-home.md
       - Project Values & Volunteer Ethos: about/values.md
+      - Roadmap Philosophy: about/roadmap-philosophy.md
       - Why ReddCoin Still Matters: about/why-reddcoin-matters.md
       - Live Project Status: transparency/status.md
 
@@ -107,10 +109,12 @@ nav:
       - Reddit: community/reddit.md
       - Reddit archive & research: community/reddit-archive.md
       - Archive & legacy: community/archive.md
+      - ReddHead Contributors: community/contributors.md
 
   - History:
       - Timeline: history/timeline.md
       - Incidents: history/incidents.md
+      - Historical Archive Index: history/historical-archive.md
 
   - Reference:
       - Branding & assets: reference/branding.md
@@ -128,3 +132,9 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/staking101.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/reddcoin-project/
+  generator: false

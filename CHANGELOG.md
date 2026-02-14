@@ -1,5 +1,13 @@
 # Knowledgebase changelog
 
+## v0.28
+- Added Roadmap Philosophy page.
+- Added ReddHead Contributors recognition page.
+- Added Historical Archive Index.
+- Enhanced State of the Network dashboard section.
+- Added SEO/site metadata enhancements.
+
+
 ## v0.27
 - Added State of the Network page.
 - Added architecture diagrams.
