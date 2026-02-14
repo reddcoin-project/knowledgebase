@@ -18,3 +18,7 @@ This section contains deeper engineering‑oriented documentation.
 - Build instructions
 - Contribution workflow
 
+
+- Running a node: operations/running-a-node.md
+- Wallet architecture: wallet/wallet-architecture.md
+- Staking mechanics: staking/staking-mechanics.md

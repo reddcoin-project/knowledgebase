@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.37
+- Added Node Operator Guide (running-a-node.md)
+- Added Wallet Architecture explanation page
+- Added Staking Mechanics guide for practical user expectations
+- Expanded technical section into full operator/dev support structure
+
+
 ## v0.36
 - Major expansion of technical/infrastructure documentation:
   - Added Network Architecture deep dive
