@@ -1,5 +1,13 @@
 # Knowledgebase changelog
 
+## v0.27
+- Added State of the Network page.
+- Added architecture diagrams.
+- Added Why ReddCoin Still Matters page.
+- Expanded troubleshooting high-signal issues.
+- Added Security & Responsibility doctrine.
+
+
 ## v0.26
 - Added visual QA checklist and launch-readiness checks.
 - Added CoinPaprika as a market data source alongside CoinGecko and CoinMarketCap.

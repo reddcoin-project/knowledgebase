@@ -47,6 +47,7 @@ nav:
       - Quickstart (choose your path): start-here/quickstart.md
       - Knowledgebase Home (wiki index): start-here/knowledgebase-home.md
       - Project Values & Volunteer Ethos: about/values.md
+      - Why ReddCoin Still Matters: about/why-reddcoin-matters.md
       - Live Project Status: transparency/status.md
 
   - For Users:
@@ -67,16 +68,19 @@ nav:
           - Discord: using/tipping/discord.md
 
       - Self-custody & keys:
+          - Security & Responsibility: using/security-and-responsibility.md
           - The Redd Way: using/self-custody.md
       - Troubleshooting:
           - Overview: using/troubleshooting/index.md
           - Quick triage: using/troubleshooting/quick-triage.md
           - Canonical chain verification: reference/canonical-chain-verification.md
+          - High-signal issues: using/troubleshooting/high-signal-issues.md
 
   - For Developers & Nodes:
       - Overview: builders/index.md
       - ReddID (social identity layer):
           - Hub: builders/reddid/index.md
+      - Architecture overview: builders/architecture-overview.md
           - Name cost calculator: builders/reddid/name-cost-calculator.md
           - Namespaces (builder-ready): builders/reddid/namespaces.md
           - Database schema (builder-ready): builders/reddid/database-schema.md
@@ -111,6 +115,7 @@ nav:
   - Reference:
       - Branding & assets: reference/branding.md
       - UI/UX & IA decisions: reference/ui-ux-review.md
+      - State of the Network: reference/state-of-network.md
       - Visual QA checklist: reference/visual-qa.md
       - Sources & attribution: sources.md
       - Contribute: contribute.md
