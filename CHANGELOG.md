@@ -1,6 +1,16 @@
 # Knowledgebase changelog
 
 ## v0.30
+## v0.30.3
+
+## v0.30.3
+- CI fix: restored mkdocs-material emoji configuration using callable functions (twemoji/to_svg) to stop pymdownx.emoji TypeError.
+- Added PyYAML pin for consistent config parsing.
+
+## v0.30.2
+- CI fix: pin GitHub Actions build to Python 3.12 to avoid pymdownx.emoji incompatibility on 3.14.
+- Added Actions troubleshooting notes.
+
 - Build hardening: added requirements.txt, BUILDING.md, and GitHub Pages deploy workflow (deploy-pages).
 - Uses mkdocs build --strict in CI to catch broken links early.
 
