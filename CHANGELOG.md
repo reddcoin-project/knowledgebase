@@ -1,5 +1,11 @@
 # Knowledgebase changelog
 
+## v0.32
+- Added Exchanges section (Current, Historical, Risk, Announcements) with aggregator + official source links.
+- Added conservative “Former / historical listings” archive starter (BitMart listing source, Bittrex pair-removal discussion link).
+- Release hygiene: ensured only deploy-pages workflow is included (no extra pages.yml/pages.yaml).
+
+
 
 ## v0.31
 - Ecosystem Partners: rebuilt layout into card-grid, removed stray citation markup that broke rendering, and expanded integrations list from public announcements.
