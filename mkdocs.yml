@@ -83,14 +83,14 @@ nav:
       - Overview: builders/index.md
       - ReddID (social identity layer):
           - Hub: builders/reddid/index.md
-      - Architecture overview: builders/architecture-overview.md
-      - Technical Deep Dives: builders/technical-deep-dives.md
           - Name cost calculator: builders/reddid/name-cost-calculator.md
           - Namespaces (builder-ready): builders/reddid/namespaces.md
           - Database schema (builder-ready): builders/reddid/database-schema.md
           - Implementation plan (builder-ready): builders/reddid/implementation-plan.md
           - Technical architecture: builders/reddid/technical-architecture.md
           - Design document: builders/reddid/design-document.md
+      - Architecture overview: builders/architecture-overview.md
+      - Technical Deep Dives: builders/technical-deep-dives.md
       - Node / network:
           - Infrastructure & repos: tech/infrastructure.md
           - Explorer & APIs: tech/explorer/index.md

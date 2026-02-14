@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.30
+- Build hardening: added requirements.txt, BUILDING.md, and GitHub Pages deploy workflow (deploy-pages).
+- Uses mkdocs build --strict in CI to catch broken links early.
+
+## v0.29.1
+- Fix release: repaired mkdocs.yml navigation indentation that prevented nested ReddID pages from rendering properly.
+- Restored complete changelog coverage for missing releases (v0.21, v0.24, v0.25).
+
+
 ## v0.29
 - Added Decentralization & Governance page.
 - Added ReddCoin Canon primary documents index.
@@ -29,17 +38,25 @@
 - Added Reddit archive/research page and datamining workflow for long-term community memory.
 
 
+## v0.25
+- Fixed homepage “buttons/icons render as text” by enabling required Markdown extensions (attr_list, md_in_html, etc.).
+- Converted key bare URLs into proper Markdown links where appropriate.
 
 
-## v0.23 (2026-02-13)
+## v0.24
+- Implemented dual‑path UX (Users vs Developers/Nodes) entry hubs.
+- Added Staking 101 interactive teaching widget and accessibility styling.
+- Converted bare URLs to clickable https:// links across the site (safe, outside code blocks).
 
+
+## v0.23
 - Added **Social tipping (ReddBot)** hub with platform sub-guides (Twitter/X, Twitch, Telegram, Reddit, Discord).
 - Expanded **Upgrade to Core v4.22+** into a builder/operator-ready guide (download verification, post-upgrade checklist, troubleshooting).
 - Fixed/locked **banner + header contrast** and ensured the site’s custom stylesheet loads via `extra_css` (prevents white-on-white visibility issues).
 - Updated UI/UX decision log with explicit contrast + trust-marker guidance.
 
-## v0.22 (2026-02-13)
 
+## v0.22
 - Adopted dual-path information architecture: **For Users** vs **For Developers & Nodes**.
 - Refactored homepage to foreground **Faith, Hope, and Charity** mission and volunteer ethos.
 - Added **Live Project Status** transparency page linking to GitHub work streams.
@@ -51,15 +68,15 @@
 
 This changelog tracks releases of the **ReddCoin Knowledgebase** (this website), not the ReddCoin protocol.
 
-## v0.21 (2026-02-13)
 
+## v0.21
 - Performed a top-down QA pass and fixed **broken internal links** (including reference PDFs and Explorer pointers).
 - Standardized canonical document links to **redd.love** (ReddPaper, ReddBook, PoSV v2 paper/FAQ) to avoid missing local assets.
 - Restored/added a dedicated **Explorer & APIs** page and reconnected troubleshooting flows back to it.
 - Updated “Last updated / last verified” dates where applicable.
 
-## v0.20 (2026-02-13)
 
+## v0.20
 - Added a true **Start Here portal** with card-based quick actions and guided links.
 - Added **Knowledgebase Home** (wiki-style index) for fast scanning and discovery.
 - Added a recorded **UI/UX & IA review** page so design decisions stay consistent.
@@ -67,22 +84,22 @@ This changelog tracks releases of the **ReddCoin Knowledgebase** (this website),
 - Tuned site search tokenization (separator) for better findability.
 - Applied “quiet authority” design polish: restrained color surfaces, improved contrast, and tighter readability defaults.
 
-## v0.19 (2026-02-13)
 
+## v0.19
 - Fixed header/banner contrast issues (prevents white-on-white or low-contrast headings).
 - Upgraded homepage to a **trust-first, task-first** layout for ReddHeads (Download / Stake / Troubleshoot / Build).
 - Added typography and layout improvements for long technical pages.
 
-## v0.18 (2026-02-13)
 
+## v0.18
 - Reduced repository file count (<100) to support GitHub web UI uploads.
 - Consolidated small pages (FAQ → Quickstart; Explorer → Infrastructure; Legacy PoSV notes → PoSV v2).
 - Centralized External references and Legacy wiki notes into single pages.
 - Replaced bundled PDFs with canonical links on https://redd.love.
 - Trimmed unused logo variants while keeping official branding.
 
-## v0.17 (2026-02-13)
 
+## v0.17
 Major:
 - Added a **homepage Quick actions** block (Download / Stake / Troubleshoot / Build).
 - Added **Quickstart (choose your path)** router for intent-based navigation.
@@ -90,22 +107,22 @@ Major:
 - Added “Last verified” callouts and standardized safety admonitions.
 - Reduced saturation and improved long-form readability (measure/spacing).
 
-## v0.16 (2026-02-13)
 
+## v0.16
 - Added additional **ReddID builder-ready** pages (Namespaces, Database schema, Implementation plan).
 - Added **Downloads** hub with SHA verification guidance.
 - Improved nav and release hygiene.
 
-## v0.15 (2026-02-13)
 
+## v0.15
 - Integrated official logo/art pack locally and wired it into theme branding.
 - Added Products, Partners, and expanded ReddID coverage with curated wiki sources.
 
-## v0.14 (2026-02-13)
 
+## v0.14
 - Implemented brand palette + initial reference pages.
 - Added canonical chain verification reference and exchanges/markets matrix.
 
-## v0.13 (2026-02-13)
 
+## v0.13
 - Initial packaged MkDocs baseline for the knowledgebase.
