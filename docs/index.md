@@ -10,7 +10,7 @@ Welcome, **ReddHeads** — builders, stakers, educators, and supporters helping 
 
 ReddCoin is a social currency. The knowledgebase should feel like a community-run library — not a sales funnel.
 
-Read the mission statement: https://www.reddcoin.com/faith-hope-charity-official-announcement-reddcoin-rdd-upcoming-consensus-fork-posv-v2-protocol-enhancement/
+Read the mission statement: [Faith, Hope, and Charity](https://www.reddcoin.com/faith-hope-charity-official-announcement-reddcoin-rdd-upcoming-consensus-fork-posv-v2-protocol-enhancement/)
 
 <div class="grid cards" markdown>
 
