@@ -1,5 +1,12 @@
 # Knowledgebase changelog
 
+## v0.33
+- Corrected historical exchange reference: Bitcoin.com replaces Crypto.com.
+- Added structured archive table for historical exchanges.
+- Added Exchange Safety Checklist page.
+- Workflow hygiene: ensured only deploy-pages.yml included.
+
+
 ## v0.32
 - Added Exchanges section (Current, Historical, Risk, Announcements) with aggregator + official source links.
 - Added conservative “Former / historical listings” archive starter (BitMart listing source, Bittrex pair-removal discussion link).

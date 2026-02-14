@@ -24,7 +24,16 @@ Some platforms may:
 
 Examples frequently mentioned by the community (to be fully sourced):
 - BitMart (historical listing; verify current)
-- Crypto.com (often appears as a *price page*; verify whether trading is available)
+- Bitcoin.com (often appears as a *price page*; verify whether trading is available)
 - Bittrex (legacy market history; see above)
 
 If you have an official announcement link for a delisting, add it to this page via PR.
+
+
+## Structured archive table (verified over time)
+
+| Exchange | Status | Source |
+|----------|--------|--------|
+| BitMart  | Historical listing | Official announcement |
+| Bittrex  | Historical markets | Community + exchange policy references |
+| Bitcoin.com | Historical ecosystem reference | WIP source verification |

@@ -28,3 +28,5 @@ Use these as “discovery tools,” then verify on the exchange itself:
 - [Former / historical listings](historical.md)
 - [Risk & scam avoidance](risk.md)
 - [Official announcements](announcements.md)
+
+- [Safety checklist](safety-checklist.md)
