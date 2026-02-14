@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.26
+- Added visual QA checklist and launch-readiness checks.
+- Added CoinPaprika as a market data source alongside CoinGecko and CoinMarketCap.
+- Added Reddit archive/research page and datamining workflow for long-term community memory.
+
+
 
 
 ## v0.23 (2026-02-13)

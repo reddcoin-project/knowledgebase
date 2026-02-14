@@ -40,6 +40,8 @@ These PDFs are included directly in this repo under `docs/assets/docs/`:
 - CoinGecko: https://www.coingecko.com/en/coins/reddcoin
 - CoinMarketCap: https://coinmarketcap.com/currencies/redd/
 
+- CoinPaprika (market data): https://coinpaprika.com/coin/rdd-reddcoin/
+
 ## Attribution & licensing
 
 - Respect original licenses and attribution for each source.

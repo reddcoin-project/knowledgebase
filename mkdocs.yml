@@ -101,6 +101,7 @@ nav:
       - Links & join: community/links.md
       - Telegram: community/telegram.md
       - Reddit: community/reddit.md
+      - Reddit archive & research: community/reddit-archive.md
       - Archive & legacy: community/archive.md
 
   - History:
@@ -110,6 +111,7 @@ nav:
   - Reference:
       - Branding & assets: reference/branding.md
       - UI/UX & IA decisions: reference/ui-ux-review.md
+      - Visual QA checklist: reference/visual-qa.md
       - Sources & attribution: sources.md
       - Contribute: contribute.md
 

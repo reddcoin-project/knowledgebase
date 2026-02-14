@@ -50,3 +50,8 @@ Aggregators are useful to discover venues, but **do not guarantee** that deposit
 - CoinGecko ReddCoin markets: https://www.coingecko.com/en/coins/reddcoin
 
 _Last reviewed: 2026-02-13_
+## Market data sources
+- CoinGecko: https://www.coingecko.com/en/coins/reddcoin
+- CoinMarketCap: https://coinmarketcap.com/currencies/redd/
+
+- CoinPaprika (RDD): https://coinpaprika.com/coin/rdd-reddcoin/
